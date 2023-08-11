@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h2>Form Get,Post Method Intro </h2>
+    <p>Two methods of client data to the server</p>
+    <ul>
+        <li>Get</li>
+        <li>Post</li>
+    </ul>
+    <p> not able to submit it data to the server</p>
+    <input type="text" name="username" id="">
+    <input type="submit" name="username" id="">
+
+    <h2>with the form tag</h2>
+    <h2>get</h2>
+    <p>get will send form data to the server using URL by appending URL ? </p>
+    <p> Will be called as query string </p>
+    <p><b> Example </b>
+        file:///C:\Niddhi\01WD\01Webdevelopment\01HTML
+    </p>
+
+    <p>its shows its data in URL that's why get method is less secure</p>
+    <p> Get is default mathod of form<br>get is faster than post<br>Get is mainly we use it for searching<br>send one
+        page data to other with refreshing <br>we can bookmark URL with data <br>Limitation 2048 Characters Only <br> not supporting file uploading</p>
+    
+    <!-- <form>
+        <label for="">User Name</label>
+        <input type="text" name="username" id="">
+        <label for="">Full Name</label>
+        <input type="text" name="fullname" id="">
+        <input type="submit" name="" id="">
+    </form> -->
+    
+    <form method="get">
+        <table>
+            <tr>
+                <td><label for="">username</label></td>
+                <td><input type="text"name="username" id=""></td>
+            </tr>
+            <tr>
+                <td>password</td>
+                <td><input type="password" name="password" id =""></td>
+            </tr>
+            <tr>
+                <td><input type="submit" name="submit" id=""></td>
+            </tr>
+        </table>
+    </form>
+    
+    <h2>POST</h2>
+    POST method sends its data without using url<br>secure<br>no limitation<br>not able to do bookmark<br>support file uploading<br><br>
+
+
+    <form Method="post">
+        <table>
+            <tr> 
+                <td><label for ="">username</label></td>
+                <td><input type="text" name="username" id="">  </td>
+            </tr>
+
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td><input type="password" name="Password" Passwordid=""></td>
+            </tr>
+
+            <tr>
+                <td><input type="submit" name= "btn-submit" id=""></td>
+            </tr>
+        </table>
+    </form><br><br>
+
+    <form method="post" action="serverpage.php" target="_blank" name="my-form" id="cust-id" class="cust-class-form" autocompleter="off"enctype="multipart/form-data"novalidate>
+        <tabel>
+            <tr>
+                <td><label for="">username</label></td>
+                <td><input type="text" name="username" id="" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="">Password</label></td>
+                <td><input type="password" name="password" id=""></td>
+            </tr>
+           
+            <tr>
+                <td><label for="">profile pic</label></td>
+                <td><label type="file" name="password" id=""></label></td>
+            </tr>
+                       
+            <tr>
+                <td><input type="submit" name="btn-submit" id=""></td>
+            </tr>
+        </table>
+    </form>
+
+    <h2>Form Attributes</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVClUSfm6w88JKIKUD0_hgirqH4yinjBy58A&usqp=CAU" alt="" width="80%">
+    <br><br><br><br><br><br>
+
+      
+</body>
+
+</html>
