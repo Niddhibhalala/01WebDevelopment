@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            height: 200px;
+            margin: 30px;
+            padding: 20px;
+            color:rgb(245, 125, 103);
+            font-size: 36px;
+            border: 5px dotted rgb(91, 56, 230);
+            outline: 5px dashed rgb(41, 201, 76);
+        }
+
+        .background-color {
+            background-color: aquamarine;
+        }
+
+        .background-image {
+            background-image: url(./bg2.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .background-image1 {
+            background-image: url(./bg3.jpg);
+            background-position:center;
+            background-size:cover;
+        }
+
+        .background-attachment {
+            background-image: url(./bg2.jpg);
+            background-position: center;
+            background-size: cover;
+            /* background-attachment: fixed; */
+            background-attachment: local;
+            /* background-attachment: scroll; */
+        }
+
+        .background-clip {
+            background-image: url(./bg2.jpg);
+            /* background-clip: border-box; */
+            background-clip: padding-box;
+            /* background-clip: content-box; */
+            white-space:5px;
+        }
+
+        .background-clip1 {
+            background-image: url(./bg3.jpg);
+            /* background-clip: border-box; */
+            /* background-position: center; */
+            /* background-size: cover; */
+            background-clip: padding-box;
+            /* background-clip: content-box; */
+        }
+
+        .background-origin {
+            background-image: url(./bg1.jpg);
+            background-origin: padding-box;
+            /* background-origin: content-box;
+            background-origin: border-box; */
+        }
+
+        .background-origin1 {
+            background-image: url(./bg2.jpg);
+            background-origin: padding-box;
+            /* background-origin: content-box;
+            background-origin: border-box; */
+        }
+
+        .background-position {
+            background-image: url(./bg3.jpg);
+            /* background-position: bottom; */
+            /* background-position: top; */
+            /* background-position: right; */
+            /* background-position: left; */
+            /* background-position: 50px 160px; */
+            /* background-position: center top; */
+            background-position: 20% 40%;
+            background-position: 50%;
+            height: 200px;
+            background-repeat: no-repeat;
+        }
+
+        .background-repeat {
+            height: 500px;
+            background-image: url(./bg2.jpg);
+            /* background-repeat: no-repeat; */
+            background-repeat: repeat-x;
+            /* background-repeat: repeat-y; */
+            background-repeat:space;
+            /* background-position: center; */
+            /* background-size: cover; */
+            background-color:rgb(140, 226, 168);
+        }
+
+        .background-size {
+            height:1000px;
+            background-image: url(./bg1.jpg);
+            background-size: contain;
+            /* background-size: cover; */
+        }
+
+        /* background-shorthand is sets all background style properties at once, such as color, image, origin and size, or repeat method. */
+        .background-shorthand {
+            height: 200px;
+            background: url(./bg2.jpg);
+            /* background-size: contain; */
+            background-size: cover;
+        }
+
+        /* What is a gradient background? 
+        Gradient, or variant is a non-uniform colored background that incorporates several gradually changing hues,
+        usually from light to dark. Gradients are not recommended for use in data visualization backgrounds because they can distract from the data being displayed. */
+        .background-grad{
+            height:1000px;
+            background:linear-gradient(orange,white,green);
+            /* background:radial-gradient(orange,white,green); */
+            /* background-size:contain; */
+            background-size:cover;
+            /* display:flex; */
+            Background-image:url(./bg3.jpg);
+            /* background: rgb(131,58,180); */
+            /* background: linear-gradient(185deg, rgba(131,58,180,1) 0%, rgba(252,176,69,1) 0%, rgba(255,255,255,1) 40%, rgba(253,255,254,1) 67%, rgba(26,182,104,1) 67%); */
+        }   
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><code>background-color</code></li>
+        <li><code>background-image</code></li>
+        <li><code>background-attachment</code></li>
+        <li><code>background-clip</code></li>
+        <li><code>background-origin</code></li>
+        <li><code>background-position</code></li>
+        <li><code>background-repeat</code></li>
+        <li><code>background-size</code></li>
+    </ul>
+
+    <div class="box background-color">background-color</div>
+    <div class="box background-image">background-image</div>
+    <div class="box background-image1">background-image</div>
+    <div class="box background-attachment">background-attachment</div>
+    <div class="box background-clip">background-clip</div>
+    <div class="box background-clip1">background-clip1</div>
+    <div class="box background-origin">background-origin</div>
+    <div class="box background-origin1">background-origin1</div>
+    <div class="box background-position">background-position</div>
+    <div class="box background-repeat">background-repeat</div>
+    <div class="box background-size">background-size</div>
+    <div class="box background-shorthand">background-shorthand</div>
+    <div class="box background-grad">background-shorthand</div>
+
+</body>
+
+</html>
+
