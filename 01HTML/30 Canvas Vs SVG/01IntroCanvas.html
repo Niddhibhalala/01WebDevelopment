@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvaswidth="120" height="120" id="canvas">
+        an alternative text describing what your canvas dispalys.
+    </canvaswidth>
+    <ul>
+        <!-- <li><a href=""><code>HTML canavs Element</code></a></li>
+        <li><a href=""><code>Canvas Rendering Context 2D</code></a></li>
+        <li><a href=""><code>Canvas Gradient</code></a></li>
+        <li><a href=""><code>Canvas Pattern</code></a></li>
+        <li><a href=""><code>Image Bitmap</code></a></li>
+        <li><a href=""><code>Image Data</code></a></li>
+        <li><a href=""><code>Text Metrics</code></a></li>
+        <li><a href=""><code>Off Screen Canvas</code></a></li>
+        <li><a href=""><code>Path 2d</code></a></li> -->
+        <abbr class="icon-icon-experimental" title="Experimental.Expect behaviour to change in the future"></abbr>
+        <span class="Visually-hidden">Experimental</span>
+
+        <!-- <li><a href=""><code>Image Bit Map Rendering Context</code></a> -->
+        <abbr class="icon icon-icon-experimental" title="Experimental. Expect behaviour to change in the future"></abbr></li>
+        <span class="Visually-hidden">Experimental </span>
+    </ul> 
+    <script>
+      const Canvas= document.getElementById("canvas")
+      Console.log(canvas);
+      const canvasqueryselector=document.queryselector("canvas")
+      console.log(canvasqueryselector);
+      const Canvas= document.queryselector("canvas")
+      console.log(canvas);
+      const ctx=canvas.getcontext("2d");
+      console.log(ctx);
+      ctx.fillstyle="green";
+      ctx.fillreact(10,10,100,100);
+
+
+      const canvas= document.getElementById("canvas");
+      Const ctx=canvas.getcontext("2d");
+
+      let gradient=ctx.createlinearGradient(0,0,200,0);
+      gradient.addcolorstop(0,"green");
+      gradient.addcolorstop(0.7,"white");
+      gradient.addcolor(1,"pink");
+      ctx.filstyle=gradient;
+      ctx.fillreact(10,10,200,100);
+    </script>
+
+</body>
+</html>
