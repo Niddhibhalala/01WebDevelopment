@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .custom li {
+            list-style: none;
+        }
+        .custom li::before{
+            content: "";
+            background-image: url(
+"https://media.geeksforgeeks.org/wp-content/uploads/20220607182945/geeksforgeeks.jpg");
+margin-right: 10px;
+            display: inline-block;
+            height: 10px;
+            width: 10px;
+        }
+    </style>
+</head>
+<body>
+    <ol>
+        <li>list</li>
+        <li>list</li>
+        <li>list</li>
+        <li>list</li>
+    </ol>
+
+    <ul>
+        <li>list1</li>
+        <li>list1</li>
+        <li>list1</li>
+        <li>list1</li>
+    </ul>
+
+    <ul class="custom">
+        <li>list1</li>
+        <li>list1</li>
+        <li>list1</li>
+        <li>list1</li>
+    </ul>
+</body>
+
+</html>
+
