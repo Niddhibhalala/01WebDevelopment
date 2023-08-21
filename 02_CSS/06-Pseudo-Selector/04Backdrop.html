@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        dialog::backdrop{
+        background-color:rgb(206, 132, 58) 
+    }
+    </style>
+</head>
+<body>
+    <button id="showDialogBtn">Show dialog button</button>
+    <Dialog id="favDialog">
+       
+        <form method="dialog">
+            <p>The background shown outside of this dialog is a backdrop.</p>
+            <button id="confirmBtn">close the dialog</button>
+        </form>
+    </Dialog>
+  
+    <video src="https://www.youtube.com/watch?v=-Di-ZfcBDXU"></video>
+    <video controls src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/friday.mp4">
+        <track default kind="captions" srclang="en" src="/media/examples/friday.vtt">
+    </video>
+
+    <script>
+        const showDialogBtn=document.getElementById('showdialogbtn');
+        const favdialog=document.getElementById('favdialog');
+        showdialogbtn.addEventListener('click',()=>favdialog.showmodal());
+    </script>
+</body>
+</html>
+
