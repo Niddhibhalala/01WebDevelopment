@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0 auto; padding: 0 auto; }
+       
+    table,th,td{
+        border: 2px Solid black;
+        width: 40vh;
+        text-align: center;
+        border-collapse:collapse;
+    }
+    .yellow{
+        background-color: rgb(244, 244, 197);
+    }
+    .sky{
+        background-color: rgb(214, 244, 244) ;
+    }
+    .pink{
+        background-color: rgb(248, 202, 210);
+    }
+    .grey {
+        background-color: rgb(162, 162, 162);
+    }
+    </style>
+</head>
+
+<body>
+    <h2>Table with column and row spanned:</h2>
+    <!-- <div class="table"> -->
+    <table class="table,th,td">
+        <tr>
+            <td class="pink">Logo</td>
+            <td colspan="3" class="yellow">Top Menu</td>
+        </tr>
+        <tr>
+            <td rowspan="2"class="yellow">Side Menu</td>
+            <td class="sky">World news</td>
+            <td class="sky">Financial</td>
+            <td rowspan="2" class="pink">List of Ads</td>
+        </tr>
+        <tr>
+            <td class="sky">Technology</td>
+            <td class="sky">sports</td>
+        </tr>
+        <tr>
+            <td colspan="4" class="grey">Footer</td>
+        </tr>
+    </table>
+</body>
+
+</html>
