@@ -1,0 +1,63 @@
+/* COMMON CSS START */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col {
+    padding: 0 15px;
+    flex: 1 0 0%;
+}
+.ml-a{
+    margin-left: auto;
+}
+
+.navbar ul li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+.txt-end{
+    text-align: end;
+}
+/* COMMON CSS END */
+
+/* Header CSS START */
+#main-header{
+    background: url(../images/headerbg.png);
+}
+ul{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+li:nth-child(2n),li:nth-child(3n){
+    padding: 10px;
+
+}
+/* li+li{
+    padding: 10px;
+} */
+
+/* Header CSS END */
