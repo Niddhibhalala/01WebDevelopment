@@ -2,36 +2,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
     list-style: none;
-
 }
 
 #main-header {
     background: url(../images/Rectangle.png);
-    height: auto;
 }
 
 .container {
-    width: 1200px;
-    padding-right: 15px;
-    margin-right: auto;
-    padding-left: 15px;
-    margin-left: auto;
-    margin: auto 0;
+    width: 1220px;
+    margin: 0 auto;
 }
 
-/* .container-fluid{
-    width:100%;
-    padding-right: 15px;
-    margin-right: auto;
-    padding-left: 15px;
-    margin-left: auto;
-} */
 .row {
     display: flex;
+    flex-wrap: wrap;
 }
 
-.navbar ol li {
+.mp {
+    padding-top: 20px;
+}
+
+.navbar ul li {
     list-style: none;
     display: inline-block;
     padding: 20px;
@@ -42,7 +35,7 @@
     padding: 5px;
 }
 
-.txt-end {
+.right-content {
     text-align: end;
 }
 
@@ -54,20 +47,20 @@
 }
 
 @font-face {
-    src: url(../../Fonts-download/Bebas_Neue.zip/);
     font-family: "bebas";
+    src: url(../../Fonts-download/bebasneue/Bebas_Neue/BebasNeue-Regular.ttf);
 }
 
 .title {
     font-family: bebas;
-    font-size: 100px;
+    font-size: 150px;
     color: #3d2514;
     text-transform: uppercase;
 }
 
 @font-face {
     font-family: poppin;
-    src: url(../../Fonts-download/Poppins.zip);
+    src: url(../../Fonts-download/bebasneue/Bebas_Neue/BebasNeue-Regular.ttf);
 }
 
 .subtitle2 {
@@ -77,13 +70,16 @@
     text-transform: uppercase;
 }
 
+.sec1 {
+    margin: 20px 0;
+}
+
 .col-50 {
     width: 50%;
 }
 
 .pos-re {
     position: relative;
-    
 }
 
 .pos-ab {
@@ -91,15 +87,47 @@
     top: 100px;
 }
 
-.burgerimg{
-    width:30px;
+.burgerimg {
+    width: 30px;
 }
 
-.circle{
+.pricecircle {
     margin-top: -30%;
     margin-right: 50%;
 }
-.price{
-    text-align: center;
-    margin-right: auto;
+
+.price {
+    top: 39px;
+    left: 46px;
+}
+
+.bannertxt1 {
+    text-transform: uppercase;
+    color: rgb(241, 231, 237);
+    font-family: bebas;
+    font-size: 25px;
+    font-weight: 300;
+    margin: 20px;
+}
+
+.bannertxt2 {
+    text-transform: uppercase;
+    color: rgb(248, 242, 246);
+    font-family: bebas;
+    font-size: 25px;
+    font-weight: 300;
+    margin: 20px;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.bannertxt3 {
+    text-transform: uppercase;
+    color: rgb(238, 228, 234);
+    font-family: bebas;
+    font-size: 25px;
+    font-weight: 300;
+    margin: 20x;
 }
