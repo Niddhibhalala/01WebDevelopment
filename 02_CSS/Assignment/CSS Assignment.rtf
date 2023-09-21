@@ -1,0 +1,240 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\qc\ul\b\f0\fs40\lang9 Assignment\par
+CSS and CSS-3  \par
+
+\pard\sa200\sl276\slmult1\qj\ulnone\fs24 Q.-1. What are the benefits of using CSS?\par
+
+\pard\sa200\sl240\slmult1\qj Ans. \b0 CSS can control the color,font,size of text,spacing between elements,how elements,how elements are positioned and laid out, background images or background colors are to be used,different displays for different devices and screen sizes.\line\line\b Q.-2 What are the disadvantages of CSS?\par
+
+\pard\sa200\sl276\slmult1\qj Ans. \b0 Disadvantages of CSS  includes: cross-browser issues, complicated syntax for some functionalities, and greater file size for larger websites.\par
+\b Q.-3 What is the difference between CSS2 and CSS3?\par
+Ans. \b0 Difference between  CSS2 and CSS3 : CSS3 has Support to add animations to your mordern websites.It has compatibility with external font styles through google fonts and typecast,improve selectors, advanced layout options,and new visual effects like gradients,animations, transformations.\par
+\b Q.-4 Name a few CSS style components\par
+Ans. \b0 CSS style components are :\par
+
+\pard\li720\sa200\sl276\slmult1\qj  1. Proerties: These are human-read able identifiers that indicate which stylistic features you want to modify. For E.g  Font-size, width, background-color.\par
+
+\pard\sa200\sl276\slmult1\qj         \tab 2. Values: Each property is assigned a value. This value indicates how to style \tab the property.\par
+\b Q.-5 What do you understand by CSS opacity?\par
+Ans.  \b0 The opacity  CSS property sets the opacity of an element. Opacity is the degree to which content behind an element is hidden and is the opposite of transparency.\par
+\b Q.-6 How can the background color of an element be changed?\par
+Ans. \b0 To add background color in HTML, use the CSS background-color property. set it to the color name or code and place it inside a style attribute.then add this style attribute to an HTML element, like a table,heading,div or span tag.\par
+\b Q.-7 How can image repetition of the backup be controlled?\par
+Ans. \b0 This can be achieved by using the background-repeat property that will help us to control the repetition of the image. The background-repeat property in CSS is used to repeat the background image both horizontally and vertically. It also decides whether the background image will be repeated or not.\par
+\b Q.-8  What is the use of the background-position property?\par
+Ans. \b0 The background-position property sets the starting position of a background image.By default, a background-image is placed at the top-left corner of an element, and repeated both vertically and horizontally.\par
+\b Q.-9 Which property controls the image scroll in the background?\par
+Ans. \b0 The background attachment property is used for the image scroll in the background.\par
+\b Q.-10 Why should background and color be used as separate properties?\par
+Ans. \b0 These are  two reasons behind to separate properties: 1. It enhances the legibility  of style sheets. The background property is a complex property in CSS, and if it is combined with color, the complexity will  further increase. 2. Color is an inherited property while the background is not. \par
+\b Q.-11 How to center block elements using CSS1?\par
+Ans. \b0 To center the block elements using CSS1, can simply make use of the  <Center> tag. All the element to include in the <center> tag will be align center.\par
+\b Q.-12 How to maintain the CSS specifications?\par
+Ans. \b0 The CSS specifications are maintained by the World Wide Web Consortium .The World wide web Consortium operates a free CSS validation service for CSS documents.\par
+\b Q.-13 What are the ways to integrate CSS as a web page?\par
+Ans. \b0 The ways to integrate CSS as a web page:   It may be added to HTML in three different ways. To style a single HTML element on the page, use \b inline CSS\b0  in a style attribute. By adding CSS to the head section of our HTML document, we can embed \b internal stylesheet.\b0 also connect to an \b external stylesheet \b0 that separates our CSS from our HTML.\par
+\b Q.-14 What is embedded style sheets?\par
+Ans. \b0 Embedded Stylesheet: It allows you to \b define styles \b0 for a particular HTML document as a whole in one place. This is done by embedding the <style></style> tags containing the CSS properties in the head of your document. \par
+\b Q.-15 What are the external style sheets?\par
+Ans. \b0 An external style sheet is a separate CSS file that can be accessed by creating a link within the head section of the webpage. Multiple webpages can use the same link to access the stylesheet. The link to an external style sheet is placed within the head section of the page.\par
+\b Q.-16 What are the advanatges and disadvantages of using external style sheets?\par
+Ans. \b0 Advantages of External style sheets are :  There is no restriction to the number of web pages that can use the external style sheet. The look can be instantly applied to every single web page using an external style sheet. They can also assist in giving each page to which they have linked a consistent format.\par
+Disadvantages of External style sheets are: The execution of the file may be deferred till the external style sheet is loaded. While implementing style sheets, we need to test Web pages with multiple browsers in order to check compatibility issues.\par
+\b Q.-17 What is the meaning of the CSS selector?\par
+Ans. \b0 CSS selectors are used to \b Find or  select \b0 the HTML elements want to style.\b\par
+\b0 CSS selectors are divided into five categories:\par
+1. \b Simple selectors \b0 (select elements based on name, id, class)\par
+2. \b Combinator selectors \b0 (select elements based on a specific relationship between them)\par
+3. \b Pseudo-class selectors \b0 (select elements based on a certain state)\par
+4. \b Pseudo-elements selectors \b0 (select and style a part of an element)\par
+5. \b Attribute selectors \b0 (select elements based on an attribute or attribute value)\par
+\b Q.-18 What are the media types allowed by CSS?\par
+Ans. \b0 CSS media types alllowed by CSS are:\par
+Value all(Used for all media type devices)\par
+Value print(Used for printers)\par
+Value screen(Used for computer screens, tablets, smart-phones etc.)\par
+value speech(Used for screenreaders that "reads" the page out loud)\par
+\b Q.-19 What is the rule set?\par
+Ans. \b0 A CSS rule set contains one or more selectors and one or more declarations. The selectors, which in this example is h1 , points to an HTML element. The declarations, which in this example are color: blue and text-align: center style the element with a property and value.\par
+\b Q.-20 Create Layout\par
+
+\pard\sa200\sl240\slmult1\qj\b0 <!DOCTYPE html>\par
+<html lang="en">\par
+\par
+<head>\par
+    <meta charset="UTF-8">\par
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\par
+    <title>Document</title>\par
+    <style>\par
+        * \{\par
+            margin: 0;\par
+            padding: 0;\par
+            box-sizing: border-box;\par
+            text-decoration: none;\par
+        \}\par
+\par
+        .col-30 \{\par
+            width: 30%;\par
+        \}\par
+\par
+        .row \{\par
+            display: flex;\par
+            flex-wrap: wrap;\par
+            margin: 20px;\par
+        \}\par
+\par
+        .row2 \{\par
+            display: flex;\par
+            flex-wrap: wrap;\par
+            margin: 20px;\par
+            padding: 20px;\par
+        \}\par
+\par
+        .bg \{\par
+            border: 1px solid gray;\par
+            padding: 10px;\par
+        \}\par
+\par
+        .sec1 \{\par
+            background-color: gray;\par
+            width: 100%;\par
+            height: 200px;\par
+            display: flex;\par
+            justify-content: center;\par
+            align-items: center;\par
+        \}\par
+\par
+        .sec1 a \{\par
+            color: rgb(255, 255, 255);\par
+        \}\par
+\par
+        .padding \{\par
+            padding: 10px;\par
+        \}\par
+\par
+        .box1 \{\par
+            padding: 10px;\par
+        \}\par
+\par
+        .sec2 \{\par
+            display: flex;\par
+            background-color: gray;\par
+            width: 100%;\par
+            height: 200px;\par
+            justify-content: center;\par
+            align-items: center;\par
+        \}\par
+\par
+        .sec2 a \{\par
+            color: rgb(255, 255, 255);\par
+        \}\par
+\par
+        .sec3 \{\par
+            display: flex;\par
+            background-color: gray;\par
+            width: 100%;\par
+            height: 200px;\par
+            justify-content: center;\par
+            align-items: center;\par
+        \}\par
+\par
+        .sec3 a \{\par
+            color: rgb(255, 255, 255);\par
+        \}\par
+    </style>\par
+</head>\par
+\par
+<body>\par
+    <div class="container padding">\par
+        <div class="row">\par
+            <div class="col-30  bg">\par
+                <div class="sec1 a">\par
+                    <a href="#">Thumbnail</a>\par
+                </div>\par
+                <div class="box1 ">\par
+                    <p>This is a widere a card with supporting text below as a natural lead in to additional content.This content is a little bit longer.</p>\par
+                    <div>\par
+                        <button>view</button>\par
+                        <button>Edit</button>\par
+                        <span>9 Reviews</span>\par
+                    </div>\par
+                </div>\par
+            </div>\par
+            <div class="col-30  bg">\par
+                <div class="sec2 a">\par
+                    <a href="#">Thumbnail</a>\par
+                </div>\par
+                <div class="box1 ">\par
+                    <p>This is a widere a card with supporting text below as a natural lead in to additional content.This content is a little bit longer.</p>\par
+                    <div>\par
+                        <button>view</button>\par
+                        <button>Edit</button>\par
+                        <span>9 Reviews</span>\par
+                    </div>\par
+                </div>\par
+            </div>\par
+            <div class="col-30  bg">\par
+                <div class="sec3 a">\par
+                    <a href="#">Thumbnail</a>\par
+                </div>\par
+                <div class="box1 ">\par
+                    <p>This is a widere a card with supporting text below as a natural lead in to additional content.This content is a little bit longer. </p>\par
+                    <div>\par
+                        <button>view</button>\par
+                        <button>Edit</button>\par
+                        <span>9 Reviews</span>\par
+                    </div>\par
+                </div>\par
+            </div>\par
+        </div>\par
+    </div>\par
+\par
+    <div class="row2">\par
+        <div class="col-30  bg">\par
+            <div class="sec1 a">\par
+                <a href="#">Thumbnail</a>\par
+            </div>\par
+            <div class="box1 ">\par
+                <p>This is a widere a card with supporting text below as a natural lead in to additional content.This content is a little bit longer.</p>\par
+                <div>\par
+                    <button>view</button>\par
+                    <button>Edit</button>\par
+                    <span>9 Reviews</span>\par
+                </div>\par
+            </div>\par
+        </div>\par
+\par
+        <div class="col-30  bg">\par
+            <div class="sec2 a">\par
+                <a href="#">Thumbnail</a>\par
+            </div>\par
+            <div class="box1 ">\par
+                <p>This is a widere a card with supporting text below as a natural lead in to additional content.This content is a little bit longer.</p>\par
+                <div>\par
+                    <button>view</button>\par
+                    <button>Edit</button>\par
+                    <span>9 Reviews</span>\par
+                </div>\par
+            </div>\par
+        </div>\par
+\par
+        <div class="col-30  bg">\par
+            <div class="sec3 a">\par
+                <a href="#">Thumbnail</a>\par
+            </div>\par
+            <div class="box1 ">\par
+                <p>This is a widere a card with supporting text below as a natural lead in to additional content.This content is a little bit longer.</p>\par
+                <div>\par
+                    <button>view</button>\par
+                    <button>Edit</button>\par
+                    <span>9 Reviews</span>\par
+                </div>\par
+            </div>\par
+        </div>\par
+    </div>\par
+</body>\par
+
+\pard\sa200\sl276\slmult1\qj\ul </html>\par
+}
+ 
