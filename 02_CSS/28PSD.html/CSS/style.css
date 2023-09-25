@@ -20,6 +20,10 @@
     flex-wrap: wrap;
 }
 
+.align {
+    align-items: center;
+}
+
 .mp {
     padding-top: 20px;
 }
@@ -30,6 +34,9 @@
     padding: 20px;
 }
 
+/* .li:nth-child(2n),li:nth-child(3n+1){
+    padding:10px;
+} */
 .ml-a {
     margin-left: auto;
     padding: 5px;
@@ -84,50 +91,212 @@
 
 .pos-ab {
     position: absolute;
-    top: 100px;
 }
 
-.burgerimg {
-    width: 30px;
+.burger {
+    width: 10%;
+    top: 121px;
 }
 
 .pricecircle {
-    margin-top: -30%;
-    margin-right: 50%;
+    bottom: 213px;
+    right: 115px;
+}
+
+.frienchfries {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .price {
-    top: 39px;
+    top: 38px;
     left: 46px;
 }
 
 .bannertxt1 {
     text-transform: uppercase;
     color: rgb(241, 231, 237);
-    font-family: bebas;
-    font-size: 25px;
-    font-weight: 300;
-    margin: 20px;
+    font-family: poppin;
+    font-size: 29px;
+    font-weight: 500;
+    padding: 0 20px;
+    top: 50px;
+    left: 20px;
 }
 
 .bannertxt2 {
     text-transform: uppercase;
     color: rgb(248, 242, 246);
-    font-family: bebas;
+    font-family: poppin;
     font-size: 25px;
     font-weight: 300;
-    margin: 20px;
-}
-
-.col-50 {
-    width: 50%;
+    padding: 0 20px;
+    top: 50px;
+    left: 20px;
 }
 
 .bannertxt3 {
     text-transform: uppercase;
-    color: rgb(238, 228, 234);
-    font-family: bebas;
+    color: rgb(255, 255, 255);
+    font-family: poppin;
     font-size: 25px;
     font-weight: 300;
-    margin: 20x;
+    padding: 0 20px;
+    top: 50px;
+    left: 20px;
+}
+
+.bnr {
+    padding-top: 31px;
+}
+
+.space {
+    padding-left: 20px;
+}
+
+.sec2 {
+    margin-top: 15px;
+}
+
+.smalltitle {
+    text-align: center;
+}
+
+.smalltitle span {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #3d2514;
+    padding: 5px 5px;
+    font-family: "poppin";
+    width: 218px;
+    background-color: #ffc045;
+}
+
+.hea {
+    text-transform: uppercase;
+    font-family: poppin;
+    font-size: 50px;
+    font-weight: 700;
+    color: #3d2514;
+    text-align: center;
+    margin-top: 5px;
+    ;
+}
+
+.head {
+    color: #724525;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.head {
+    color: #3d2514;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.col-30 {
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 20px;
+}
+
+.sec3 {
+    align-items: center;
+    justify-content: center;
+}
+
+.col-30 span img {
+    width: 80%;
+    justify-content: center;
+}
+
+.col-30 h4 {
+    font-size: 27px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 300;
+    font-family: "Bebas Neue";
+    text-align: center;
+}
+
+.sentence {
+    width: 367px;
+    height: 51px;
+    font-size: 17px;
+    line-height: 21px;
+    color: #3d2514;
+    font-weight: 300;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.linkbtn {
+    text-align: center;
+    justify-content: ;
+}
+
+.linkbtn {
+    width: 100px;
+    background-color: #bf2222;
+    color: aliceblue;
+    align-items: center;
+    text-decoration: none;
+}
+
+.sec4 {
+    margin-top: 15px;
+}
+
+.sec4 h5 {
+    font-size: 29px;
+    letter-spacing: 2px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #3d3d3d;
+    font-weight: 500;
+    font-family: "Bebas Neue";
+    display: flex;
+}
+
+.sec4 h2 {
+    font-size: 35px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 700;
+    font-family: "Alfa Slab One";
+}
+
+.sec4 p {
+    width: 531px;
+    height: 173px;
+    font-size: 21px;
+    line-height: 33px;
+    color: #3d3d3d;
+    font-weight: 400;
+    font-family: "Montserrat";
+    justify-content: justify;
+}
+
+.content{
+    width:100%;
+   box-shadow: 1px 1px grey;
+   flex-wrap: wrap;
+}
+
+.col-40 {
+    width: 40%;
+}
+
+.col-60 {
+   width:60%;
+}
+
+.col-60 img{
+    width:60%;
+    flex-wrap: wrap;
+
 }
