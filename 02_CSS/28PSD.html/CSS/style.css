@@ -233,29 +233,12 @@
     text-align: center;
 }
 
-.linkbtn {
-    text-align: center;
-    justify-content: ;
-}
-
-.linkbtn {
-    width: 100px;
+.linkbtn a{
     background-color: #bf2222;
     color: aliceblue;
-    align-items: center;
     text-decoration: none;
 }
 
-/* .sec4 {
-    width: 100%;
-    margin: 15px;
-    display: inline-block;
-    flex-wrap: wrap;
-} */
-
-/* .rowbanner{
-    display: flex;
-} */
 .sec4_text h5{
     font-size: 29px;
     letter-spacing: 2px;
@@ -298,8 +281,8 @@
     left: -80px;
 }
 .sec5_img2{
-    top: 38px;
-    left: 10em;
+    top: 77px;
+    left: 7em;
 }
 .sec5_img3{
     top:65px;
@@ -308,6 +291,7 @@
 
 .center{
     text-align: center;
+    margin: 80px;
 }
 
 .center h5 {
@@ -335,14 +319,10 @@
     margin: 0 auto;
 }
 
-.mar{
-    margin-top: 50px;
-}
-
 .sec5 table tr td {
     box-sizing: border-box;
     margin: 0 5px;
-    padding: 10px 10px;
+    padding: 25px 25px;
     align-items: center;
 }
 
