@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            /* display: flex; */
+            height:150px;
+            width:100%;
+            background-color: grey;
+            border: 2px solid black;
+            margin: 5px 5px;
+        }
+
+        .one,
+        .Two,
+        .Three {
+            background-color: green;
+            border: 1px solid black;
+            margin: 1px;
+            color: black;
+        }
+
+        
+        .one{
+            display:inline-block;
+            flex-direction: column;
+            height: 50px;
+        } 
+
+        .Two{
+            align-items: flex-start;
+            height: 30px;
+        }
+
+        .Three {
+            align-items: flex-end;
+            justify-content: baseline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="row1">
+            <span class="one">one</span>
+            <span class="Two">two</span>
+            <span class="Three">three</span>
+        </div>
+
+    </div>
+</body>
+
+</html>
