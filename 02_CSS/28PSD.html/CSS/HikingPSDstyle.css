@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: opensans;
+    src: url(../Hiking-PSD-Images/Fonts-Open-sans/OpenSans-Medium.ttf);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+ .jst{
+    justify-content: space-between;
+ }
+ .align{
+    align-items: center;
+ }
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+.pos-rel{
+    position: relative;
+}
+.pos-ab{
+    position: absolute;
+}
+.navbar ul li {
+    display: inline-block;
+    font-size: 19px;
+    font-weight: 500;
+    font-family: "Opensans";
+    padding: 10px;
+}
+
+.logo{
+    padding: 15px 0;
+}
+.rectang  { 
+    padding: 0px 70px;
+    background-color: gray ;
+    position: relative;
+     border-radius: 10px;
+}
+.rectang i{
+position: absolute;
+top: 3px;
+right: 10px;
+}
+.sec1-bg{
+    /* background: linear-gradient(90deg,rgba(52,52,52,0.046),rgb(67 64 55/0%)100%),url(../Hiking-PSD-Images/headerimg.png); */
+    background: linear-gradient(90deg,rgba(0, 0, 0, 0.123),rgba(0, 0, 0, 0.397)),url(../Hiking-PSD-Images/headerimg.png);
+    /* background-image: url(../Hiking-PSD-Images/headerimg.png); */
+    background-position: 100% 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -2;
+}
+
+.sec1-text1 {
+    font-size: 50px;
+    width: 40%;
+    margin: 40px 30px 0 0;
+    color: #deb37e;
+    font-family: "Opensans";
+    filter: drop-shadow(2.575px -4.286px 2.5px rgba(84, 82, 79, 0.22));
+    text-transform: uppercase;
+}
+
+.sec1-text1 button {
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #776c64;
+    font-weight: 600;
+    font-family: "Opensans";
+    text-align: center;
+    margin:0  50px 20px 0;
+} 
+.sec1-text1 h5 {
+    font-size: 15px;
+    letter-spacing: 5px;
+    color: #54524f;
+    font-weight: 300;
+    font-style: italic;
+    font-family: "Opensans";
+    text-align: center;
+    margin:0  0  50px 0;
+}
+ .bodytext_1 {
+    width:500px;
+    height: 100px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #54524f;
+    font-weight: 200;
+    font-style: italic;
+    font-family: "Opensans";
+    margin:0 0 90px 0;
+} 
+.header-bg{
+    position: relative;
+    z-index: 2;
+}
+.shape1 {
+    top: 0px;
+    width: 100%;
+}
+.shape1 img{
+    width: 100%;
+    top:0;
+    z-index: 1;
+}
+
+
+
