@@ -15,22 +15,28 @@
     display: flex;
     flex-wrap: wrap;
 }
- .jst{
+
+.jst {
     justify-content: space-between;
- }
- .align{
+}
+
+.align {
     align-items: center;
- }
+}
+
 .container {
     width: 1280px;
     margin: 0 auto;
 }
-.pos-rel{
+
+.pos-rel {
     position: relative;
 }
-.pos-ab{
+
+.pos-ab {
     position: absolute;
 }
+
 .navbar ul li {
     display: inline-block;
     font-size: 19px;
@@ -39,28 +45,41 @@
     padding: 10px;
 }
 
-.logo{
+.navbar ul li a {
+    color: #54524f;
+    font-size: 15px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: "Opensans";
+}
+
+.logo {
     padding: 15px 0;
 }
-.rectang  { 
+
+.rectang {
     padding: 0px 70px;
-    background-color: gray ;
+    background-color: gray;
     position: relative;
-     border-radius: 10px;
+    border-radius: 10px;
 }
-.rectang i{
-position: absolute;
-top: 3px;
-right: 10px;
+
+.rectang i {
+    position: absolute;
+    top: 3px;
+    right: 10px;
 }
-.sec1-bg{
-    /* background: linear-gradient(90deg,rgba(52,52,52,0.046),rgb(67 64 55/0%)100%),url(../Hiking-PSD-Images/headerimg.png); */
-    background: linear-gradient(90deg,rgba(0, 0, 0, 0.123),rgba(0, 0, 0, 0.397)),url(../Hiking-PSD-Images/headerimg.png);
+
+.sec1-bg {
+    background: linear-gradient(90deg, rgba(52, 52, 52, 0.046), rgb(67 64 55/0%)100%), url(../Hiking-PSD-Images/headerimg.png);
+    /* background: linear-gradient(90deg, rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 0.397)), url(../Hiking-PSD-Images/headerimg.png); */
     /* background-image: url(../Hiking-PSD-Images/headerimg.png); */
-    background-position: 100% 40%;
+    background-position: 100% 100%;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -2;
+height: 800px;
 }
 
 .sec1-text1 {
@@ -74,16 +93,21 @@ right: 10px;
 }
 
 .sec1-text1 button {
+    padding: 8px 20px;
+    border-radius: 10px;
+}
+
+.sec1-text1 button {
     display: flex;
     border: none;
-    border-radius: 5px;
     font-size: 15px;
     color: #776c64;
     font-weight: 600;
     font-family: "Opensans";
     text-align: center;
-    margin:0  50px 20px 0;
-} 
+    margin: 0 50px 20px 0;
+}
+
 .sec1-text1 h5 {
     font-size: 15px;
     letter-spacing: 5px;
@@ -92,32 +116,126 @@ right: 10px;
     font-style: italic;
     font-family: "Opensans";
     text-align: center;
-    margin:0  0  50px 0;
+    margin: 0 0 50px 0;
 }
- .bodytext_1 {
-    width:500px;
+
+.bodytext_1 {
+    width: 500px;
     height: 100px;
     font-size: 16px;
     letter-spacing: 1px;
+    text-transform: lowercase;
     color: #54524f;
     font-weight: 200;
     font-style: italic;
     font-family: "Opensans";
-    margin:0 0 90px 0;
-} 
-.header-bg{
+    margin: 0 0 90px 0;
+}
+
+.header-bg {
     position: relative;
     z-index: 2;
 }
+
 .shape1 {
     top: 0px;
     width: 100%;
 }
-.shape1 img{
+
+.shape1 img {
     width: 100%;
-    top:0;
+    top: 0px;
     z-index: 1;
 }
 
+.sec1-2bg  {
+    /* transform: rotate(0.5turn); */
+    /* position: absolute; */
+    width:100%;
+/* bottom: -10px; */
+    z-index: 2;
+      bottom: -34px;
+} 
 
+.sec2 {
+    margin: 50px 0 0 50px;
+}
 
+.sec2-txt h3 {
+    text-align: center;
+    font-size: 63px;
+    text-transform: uppercase;
+    color: #e2a355;
+    font-weight: 800;
+    font-family: "Opensans";
+    margin: 0 auto;
+}
+
+.sec2-txt p {
+    width: 1788px;
+    font-size: 20px;
+    color: #7f7770;
+    font-weight: 400;
+    font-family: "Opensans";
+    text-align: center;
+    /* margin: 0 0 50px 0; */
+}
+
+.sec2 col {
+    width: 339px;
+    height: 227px;
+    background-color: #7f7770;
+}
+
+.col-25 {
+    width: 25%;
+}
+
+.box1 {
+    background-color: #776c64;
+    color: #fff;
+    margin:60px 50px;
+}
+
+.box1 img {
+    display: block;
+    width: 100%;
+}
+
+.box1 h4 {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Opensans";
+    padding: 10px 0 20px 20px;
+}
+
+.box1 p {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Opensans";
+    padding: 10px 0 40px 20px;
+}
+
+.btn {
+    align-items: center;
+    justify-content: center;
+}
+
+.btn button {
+    font-size: 18px;
+    letter-spacing: 5px;
+    line-height: 21px;
+    text-transform: uppercase;
+    background-color: #776c64;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Opensans";
+    padding: 16px 2.5em;
+    border-radius: 3em;
+    border: none;
+}
+.secdesign img{
+    left:auto;
+}
