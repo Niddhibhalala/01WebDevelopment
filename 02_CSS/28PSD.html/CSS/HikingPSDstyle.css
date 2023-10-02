@@ -72,14 +72,23 @@
 }
 
 .sec1-bg {
+<<<<<<< HEAD
     /* background: linear-gradient(90deg, rgba(52, 52, 52, 0.046), rgb(67 64 55/0%)100%), url(../Hiking-PSD-Images/headerimg.png); */
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 0.397)), url(../Hiking-PSD-Images/headerimg.png);
+=======
+    background: linear-gradient(90deg, rgba(52, 52, 52, 0.046), rgb(67 64 55/0%)100%), url(../Hiking-PSD-Images/headerimg.png);
+    /* background: linear-gradient(90deg, rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 0.397)), url(../Hiking-PSD-Images/headerimg.png); */
+>>>>>>> 76b5abcf7ce95fe342833f9dfde33f24dc95989c
     /* background-image: url(../Hiking-PSD-Images/headerimg.png); */
     background-position: 100% 100%;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -2;
+<<<<<<< HEAD
     height: 800px;
+=======
+height: 800px;
+>>>>>>> 76b5abcf7ce95fe342833f9dfde33f24dc95989c
 }
 
 .sec1-text1 {
@@ -144,6 +153,7 @@
 
 .shape1 img {
     width: 100%;
+<<<<<<< HEAD
     top: 8px;
     z-index: 1;
 }
@@ -159,6 +169,23 @@
 
 .sec2 {
     margin: 50px 0 10px 0;
+=======
+    top: 0px;
+    z-index: 1;
+}
+
+.sec1-2bg  {
+    /* transform: rotate(0.5turn); */
+    /* position: absolute; */
+    width:100%;
+/* bottom: -10px; */
+    z-index: 2;
+      bottom: -34px;
+} 
+
+.sec2 {
+    margin: 50px 0 0 50px;
+>>>>>>> 76b5abcf7ce95fe342833f9dfde33f24dc95989c
 }
 
 .sec2-txt h3 {
@@ -194,7 +221,11 @@
 .box1 {
     background-color: #776c64;
     color: #fff;
+<<<<<<< HEAD
     margin: 60px 50px;
+=======
+    margin:60px 50px;
+>>>>>>> 76b5abcf7ce95fe342833f9dfde33f24dc95989c
 }
 
 .box1 img {
@@ -236,6 +267,7 @@
     border-radius: 3em;
     border: none;
 }
+<<<<<<< HEAD
 
 .sec3 {
     margin: 10px 0 10px 0;
@@ -459,3 +491,8 @@
     font-family: "Opensans";
     text-align: center;
 }
+=======
+.secdesign img{
+    left:auto;
+}
+>>>>>>> 76b5abcf7ce95fe342833f9dfde33f24dc95989c

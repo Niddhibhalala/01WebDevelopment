@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box
+        }
+
+        .container {
+            width: 100%;
+            background-color:brown;
+            padding: 15px ;
+            margin-right: auto;
+            margin-left:auto;
+            box-sizing: 1px solid grey;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin-right:-15px;
+            margin-top: 15px;
+            margin-left:-15px;
+        }
+
+        div[class*="col"] {
+            padding-left: 10px;
+            padding-right:10px;
+            background-color:brown;
+        }
+
+        .col {
+            flex: 1 0 0% ; 
+        } 
+
+        .col,
+        .col-25,
+        .col-33,
+        .col-50 {
+            width: 100%;
+        }
+
+        @media(min-width:567px) {
+            .container {
+                width: 540px;
+            }
+
+            .col-25,
+            .col-33 {
+                width: 50%;
+            }
+
+            .col-50 {
+                width: 100%;
+            }
+        }
+
+        @media(min-width:768px) {
+            .container {
+                width: 710px;
+            }
+            .col-25 {
+                width: 33.33%;
+            }
+            .col-33 {
+                width: 50%;
+            }
+            .col-50{
+                width: 50%;
+            }
+            .col{
+                width:100%;
+            }
+            
+        }
+
+        @media(min-width:992px) {
+            .container {
+                width: 960px;
+            }
+            .col-25 {
+                width: 25%
+            }
+            .col-33 {
+                width: 33.33%;
+            }
+            .col-50 {
+                width: 50%;
+            }
+            .col{
+                width:100%;
+            }
+        }
+        @media(min-width:1200px){
+            .container{
+                width:1160px;
+            }
+            .col-25{
+                width:20%;
+            }
+            .col-33{
+                width:25%;
+            }
+            .col-50{
+                width:33.33%;
+            }
+            .col{
+                width:50%;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-25">row-1
+                <img src="./Imagesmedia/img2.jpg" alt="">
+            </div>
+            <div class="col-25">row-1
+                <img src="./Imagesmedia/img3.jpg" alt="">
+            </div>
+            <div class="col-25">row-1
+                <img src="./Imagesmedia/img4.jpg" alt="">
+            </div>
+            <div class="col-25">row-1
+                <img src="./Imagesmedia/img5.jpg" alt="">
+            </div>
+            <div class="col-25">row-1
+                <img src="./Imagesmedia/img6.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-33">row-2
+                <img src="./Imagesmedia/img1.jpg" alt="">
+            </div>
+            <div class="col-33">row-2
+                <img src="./Imagesmedia/img2.jpg" alt="">
+            </div>
+            <div class="col-33">row-2
+                <img src="./Imagesmedia/img3.jpg" alt="">
+            </div>
+            <div class="col-33">row-2
+                <img src="./Imagesmedia/img4.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-50">row-3
+                <img src="./Imagesmedia/img4.jpg" alt="">
+            </div>
+            <div class="col-50">row-3
+                <img src="./Imagesmedia/img6.jpg" alt="">
+            </div>
+            <div class="col-50">row-3
+                <img src="./Imagesmedia/img5.jpg" alt="">
+            </div>
+            <div class="col-50">row-3
+                <img src="./Imagesmedia/img3.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">row-4
+                <img src="./Imagesmedia/img7.jpg" alt="">
+            </div>
+            <div class="col">row-4
+                <img src="./Imagesmedia/img8.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
