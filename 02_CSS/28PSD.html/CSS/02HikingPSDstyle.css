@@ -72,23 +72,14 @@
 }
 
 .sec1-bg {
-<<<<<<< HEAD
     /* background: linear-gradient(90deg, rgba(52, 52, 52, 0.046), rgb(67 64 55/0%)100%), url(../Hiking-PSD-Images/headerimg.png); */
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 0.397)), url(../Hiking-PSD-Images/headerimg.png);
-=======
-    background: linear-gradient(90deg, rgba(52, 52, 52, 0.046), rgb(67 64 55/0%)100%), url(../Hiking-PSD-Images/headerimg.png);
-    /* background: linear-gradient(90deg, rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 0.397)), url(../Hiking-PSD-Images/headerimg.png); */
->>>>>>> 76b5abcf7ce95fe342833f9dfde33f24dc95989c
     /* background-image: url(../Hiking-PSD-Images/headerimg.png); */
     background-position: 100% 100%;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -2;
-<<<<<<< HEAD
     height: 800px;
-=======
-height: 800px;
->>>>>>> 76b5abcf7ce95fe342833f9dfde33f24dc95989c
 }
 
 .sec1-text1 {
@@ -153,39 +144,19 @@ height: 800px;
 
 .shape1 img {
     width: 100%;
-<<<<<<< HEAD
     top: 8px;
     z-index: 1;
 }
 
 .sec1-2bg {
     transform: rotate(360turn);
-    /* position: absolute; */
     width: 100%;
-    /* bottom: -10px; */
     z-index: 2;
     bottom: -34px;
 }
 
 .sec2 {
     margin: 50px 0 10px 0;
-=======
-    top: 0px;
-    z-index: 1;
-}
-
-.sec1-2bg  {
-    /* transform: rotate(0.5turn); */
-    /* position: absolute; */
-    width:100%;
-/* bottom: -10px; */
-    z-index: 2;
-      bottom: -34px;
-} 
-
-.sec2 {
-    margin: 50px 0 0 50px;
->>>>>>> 76b5abcf7ce95fe342833f9dfde33f24dc95989c
 }
 
 .sec2-txt h3 {
@@ -221,11 +192,7 @@ height: 800px;
 .box1 {
     background-color: #776c64;
     color: #fff;
-<<<<<<< HEAD
     margin: 60px 50px;
-=======
-    margin:60px 50px;
->>>>>>> 76b5abcf7ce95fe342833f9dfde33f24dc95989c
 }
 
 .box1 img {
@@ -267,12 +234,15 @@ height: 800px;
     border-radius: 3em;
     border: none;
 }
-<<<<<<< HEAD
 
 .sec3 {
     margin: 10px 0 10px 0;
     align-items: center;
     justify-content: center;
+}
+
+.overflow {
+    overflow: hidden;
 }
 
 .col-50 {
@@ -361,19 +331,9 @@ height: 800px;
     border: none;
 }
 
-.recetangle {
-    width: 1340px;
-    height: 650px;
+.sec4 .recetangle {
     background-color: #7f7770;
-    position: relative;
-}
-.sec4{
-    align-items: center;
-    justify-content: center;
-}
-.sec4 img {
-    position: absolute;
-    z-index: 3;
+    text-align: center;
 }
 
 .recetangle h3 {
@@ -381,7 +341,8 @@ height: 800px;
     color: #ffffff;
     font-weight: 500;
     font-family: "Opensans";
-    text-align: center;
+    margin: 0 auto;
+    width: 100%;
 }
 
 .sec4 p {
@@ -390,52 +351,81 @@ height: 800px;
     font-weight: 250;
     font-family: "Opensans";
     text-align: center;
+    margin: 20px auto;
+    width: 75%;
 }
 
-.sec4 .img02shape {
-    position: absolute;
-    z-index: 4;
-    bottom: 60px;
-}
-
-.bg {
+/* .sec5 .bg {
     background-image: url(../Hiking-PSD-Images/img05.png);
     background-position: 100% 100%;
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 900px;
-    position: relative;
-    z-index: -1;
-}
+    background-size: 100% 100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    align-items: end;
+    height: 100vh; */
+/* margin-top: 50px; */
+/* margin: 100px 0; */
+/* text-align: right; */
+/* padding: 40px 0; */
 
-.img05-2 h3 {
-    text-transform: capitalize;
+/* } */
+
+/* .sec5h3 { */
+/* text-transform: capitalize;
     font-size: 76px;
     color: #deb37e;
     font-weight: 800;
     font-style: italic;
+background-repeat: n;
     font-family: "Opensans";
     text-align: right;
     filter: drop-shadow(2.575px -4.286px 2.5px rgba(84, 82, 79, 0.36));
-    position: absolute;
-    z-index: 2;
+} */
+
+/* .img05-02 {
+    bottom: 60px;
+} */
+.sec_5 {
+
+    background-image: url(../Hiking-PSD-Images/img05.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 100px 30px;
 }
 
-.img05-2 img {
-    position: absolute;
-    z-index: 2;
+.sec_5img01 {
+    top: -32px;
+    left: -80px;
+    overflow-x: hidden;
 }
 
-.img05-02 img {
-    position: absolute;
-    z-index: 2;
-    top: 10px;
+.sec_5img02 {
+    bottom: -4px;
+    left: -50px;
+    /* overflow-x: hidden; */
+}
+
+.sec_5text {
+    font-family: "Opensans";
+    text-align: right;
+    margin: 100px 0;
+}
+
+.sec_5text h2 {
+    font-size: 76px;
+    color: #deb37e
+}
+
+.sec_5text h3 {
+    font-size: 76px;
+    color: black;
 }
 
 .sec6 {
-    margin: 60px 50px;
-    align-items: center;
-    justify-content: center;
+    width: 75%;
+    margin: 0 auto;
 }
 
 .col-25 {
@@ -470,11 +460,11 @@ height: 800px;
     color: #3f3f3f;
     font-weight: 400;
     font-family: "Opensans";
-    margin:0 40rem;
+    margin: 0 40rem;
 }
 
 .sec7 p {
-    margin:0 200px;
+    margin: 0 200px;
     text-align: center;
     width: 817px;
     height: 161px;
@@ -483,7 +473,8 @@ height: 800px;
     font-weight: 500;
     font-family: "Opensans";
 }
-.sec7 h6{
+
+.sec7 h6 {
     font-size: 20px;
     line-height: 33px;
     color: #3f3f3f;
@@ -491,8 +482,107 @@ height: 800px;
     font-family: "Opensans";
     text-align: center;
 }
-=======
-.secdesign img{
-    left:auto;
+
+.sec8 {
+    width: 1320px;
+    background-color: #deb37e;
 }
->>>>>>> 76b5abcf7ce95fe342833f9dfde33f24dc95989c
+
+.sec8 h3 {
+    padding-top: 90px;
+    font-size: 70px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Opensans";
+    text-align: center;
+}
+
+.sec8 p {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #54524f;
+    font-weight: 300;
+    font-family: "Opensans";
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.sec8 input {
+    width: 25%;
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.sec8 button {
+    width: 100px;
+    border-radius: 32px;
+    background-color: #54524f;
+}
+
+.sec8 button {
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Opensans";
+    text-align: center;
+    padding: 5px;
+}
+
+.sec9 {
+    background-color: #776c64;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.col-25{
+    width:25%;
+    margin:0 auto;
+}
+.sec9 h4 {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Opensans";
+    padding: 30px 20px;
+}
+
+.sec9 p {
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 100;
+    font-family: "Opensans";
+    padding: 10px 20px;
+}
+
+.sec9 ul li {
+    padding: 5px 5px;
+    margin: 3px 5px;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.col-25 h4 {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Opensans";
+}
+
+.row p{
+    list-style: none;
+    font-weight: 100;
+    font-size: 22px;
+    color: #ffffff;
+    font-family: "Opensans";
+}
+
+    
