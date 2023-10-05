@@ -73,7 +73,7 @@
 
 .sec1-bg {
     /* background: linear-gradient(90deg, rgba(52, 52, 52, 0.046), rgb(67 64 55/0%)100%), url(../Hiking-PSD-Images/headerimg.png); */
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 0.397)), url(../Hiking-PSD-Images/headerimg.png);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 0.397)), url(../Hiking-PSD-Images/imghead.png);
     /* background-image: url(../Hiking-PSD-Images/headerimg.png); */
     background-position: 100% 100%;
     background-repeat: no-repeat;
@@ -233,6 +233,7 @@
     padding: 16px 2.5em;
     border-radius: 3em;
     border: none;
+    margin:5px;
 }
 
 .sec3 {
@@ -425,11 +426,7 @@ background-repeat: n;
 
 .sec6 {
     width: 75%;
-    margin: 0 auto;
-}
-
-.col-25 {
-    width: 25%;
+    /* margin: 0 auto; */
 }
 
 .col-25 h3 {
@@ -540,6 +537,7 @@ background-repeat: n;
     background-color: #776c64;
     margin: 0 auto;
     overflow-x: hidden;
+    padding:0 20px;
 }
 
 .col-25{

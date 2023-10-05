@@ -6,27 +6,177 @@
     text-decoration: none;
 }
 
+@font-face {
+    font-family: Latobla;
+    src: url(../03-PSD-images/Font/Lato-Black.ttf)
+}
+
+@font-face {
+    font-family: Latoreg;
+    src: url(../03-PSD-images/Font/Lato-Regular.ttf)
+}
+
+@font-face {
+    font-family: cardo;
+    src: url(../03-PSD-images/Font/Cardo-Bold.ttf)
+}
+
 .container {
-    width: 1280px;
+    width: 1260px;
     margin: 0 auto;
 }
 
-.sec1 {
+.row {
     display: flex;
     flex-wrap: wrap;
 }
 
+.jstr {
+    justify-content: right;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.jst {
+    justify-content: space-between;
+}
+
+.pos-rel {
+    position: relative;
+}
+
+.pos-ab {
+    position: absolute;
+}
+
 .sec1 img {
-    margin-left: auto;
-    width: 10%;
+    width: 8%;
+}
+
+.col-50 {
+    width: 50%;
 }
 
 .navbar ul li {
-    padding: 20px;
     display: inline-block;
-    font-size: 21px;
+    font-size: 20px;
     letter-spacing: -1px;
     color: #232323;
-    font-weight: 900;
+    font-weight: 300;
+    font-family: "Latoreg";
     text-align: left;
+    padding: 20px;
+    margin:20px 0;
+}
+
+.navbar li:nth-child(1) {
+    font-family: "Latobla";
+}
+
+.sec1 button {
+    margin: 27px 0;
+    padding: 4px 10px;
+    border-radius: 5px;
+    border: 3px solid #232323;
+}
+
+.sec1 button {
+    font-size: 20px;
+    color: #232323;
+    font-weight: 500;
+    font-family: "Latoreg";
+    text-align: center;
+}
+
+.bghead {
+    background-image: url(../03-PSD-images/img002.png);
+    background-repeat: no-repeat;
+}
+
+.text h3 {
+    width: 50%;
+    font-size: 60px;
+    color: #232323;
+    font-family: "cardo";
+    margin: 0 50px;
+}
+
+.text p {
+    width: 50%;
+    font-size: 17px;
+    letter-spacing: 2px;
+    color: #232323;
+    font-family: "Latoreg";
+    text-align: justify;
+    margin: 0 50px;
+}
+
+.text button {
+    border-radius: 5px;
+    background-color: #232323;
+    margin: 0 50px;
+}
+
+.text button {
+    padding: 4px;
+    margin: 30px 60px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #e9e7e7;
+    font-family: "Latoreg";
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-50 img {
+    display: inline-block;
+    width: 100%;
+    padding: 0 60px;
+}
+
+.imghead img {
+    width: 10%;
+    height: 245px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0px;
+    bottom: -27px;
+}
+
+.sec2 {
+    background-color: black;
+    color: #fff;
+    padding: 80px;
+    text-align: center;
+}
+
+.sec2 h3 {
+    color: #fff;
+    width: 40%;
+    margin: 0 auto;
+    font-size: 55px;
+    line-height: 55px;
+    color: #e9e7e7;
+    font-weight: 500;
+    font-family: "Cardo";
+}
+
+.sec2 p {
+    color: #fff;
+    width: 40%;
+    margin: 0 auto;
+    width: 1170px;
+    height: 146px;
+    font-size: 17px;
+    color: #e9e7e7;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
 }
