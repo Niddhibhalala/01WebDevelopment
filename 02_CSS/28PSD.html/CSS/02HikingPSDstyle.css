@@ -73,7 +73,7 @@
 
 .sec1-bg {
     /* background: linear-gradient(90deg, rgba(52, 52, 52, 0.046), rgb(67 64 55/0%)100%), url(../Hiking-PSD-Images/headerimg.png); */
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 0.397)), url(../Hiking-PSD-Images/imghead.png);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 0.397)), url(../Hiking-PSD-Images/headimg.png);
     /* background-image: url(../Hiking-PSD-Images/headerimg.png); */
     background-position: 100% 100%;
     background-repeat: no-repeat;
@@ -147,13 +147,12 @@
     top: 8px;
     z-index: 1;
 }
-
-.sec1-2bg {
-    transform: rotate(360turn);
+ .sec1-2bg {
+    transform: rotate(360turn); 
     width: 100%;
     z-index: 2;
     bottom: -34px;
-}
+} 
 
 .sec2 {
     margin: 50px 0 10px 0;
@@ -176,7 +175,6 @@
     font-weight: 400;
     font-family: "Opensans";
     text-align: center;
-    /* margin: 0 0 50px 0; */
 }
 
 .sec2 col {
@@ -233,7 +231,7 @@
     padding: 16px 2.5em;
     border-radius: 3em;
     border: none;
-    margin:5px;
+    margin: 5px;
 }
 
 .sec3 {
@@ -332,6 +330,11 @@
     border: none;
 }
 
+.sec4 img {
+    width: 100%;
+    margin: 0 auto;
+}
+
 .sec4 .recetangle {
     background-color: #7f7770;
     text-align: center;
@@ -356,93 +359,62 @@
     width: 75%;
 }
 
-/* .sec5 .bg {
-    background-image: url(../Hiking-PSD-Images/img05.png);
-    background-position: 100% 100%;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    display:flex;
-    flex-direction:column;
-    justify-content: flex-end;
-    align-items: end;
-    height: 100vh; */
-/* margin-top: 50px; */
-/* margin: 100px 0; */
-/* text-align: right; */
-/* padding: 40px 0; */
-
-/* } */
-
-/* .sec5h3 { */
-/* text-transform: capitalize;
-    font-size: 76px;
-    color: #deb37e;
-    font-weight: 800;
-    font-style: italic;
-background-repeat: n;
-    font-family: "Opensans";
-    text-align: right;
-    filter: drop-shadow(2.575px -4.286px 2.5px rgba(84, 82, 79, 0.36));
-} */
-
-/* .img05-02 {
-    bottom: 60px;
-} */
-.sec_5 {
-
+.sec5 {
     background-image: url(../Hiking-PSD-Images/img05.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding: 100px 30px;
 }
 
-.sec_5img01 {
+.sec5img01 {
     top: -32px;
-    left: -80px;
-    overflow-x: hidden;
+    right: 0px;
+    /* left: -80px; */
+    /* overflow-x: hidden;  */
+
 }
 
-.sec_5img02 {
+.sec5img02 {
     bottom: -4px;
-    left: -50px;
-    /* overflow-x: hidden; */
+    right: 0;
+    /* margin: 0 auto; */
 }
 
-.sec_5text {
+.sec5text {
     font-family: "Opensans";
     text-align: right;
     margin: 100px 0;
 }
 
-.sec_5text h2 {
+.sec5text h2 {
     font-size: 76px;
     color: #deb37e
 }
 
-.sec_5text h3 {
+.sec5text h3 {
     font-size: 76px;
     color: black;
 }
 
 .sec6 {
-    width: 75%;
-    /* margin: 0 auto; */
+    width: 25%;
+    /* align-items: center; */
 }
 
 .col-25 h3 {
     font-size: 33px;
-    line-height: 33px;
     color: #deb37e;
     font-weight: 700;
     font-family: "Opensans";
 }
 
-.col-25 h5 {
-    font-size: 19px;
+.sec6 .col-25 .p {
+    font-size: 60px;
     line-height: 25px;
     color: #333d42;
-    font-weight: 400;
+    font-weight: 500;
     font-family: "Opensans";
+    text-align: justify;
 }
 
 .sec7 {
@@ -451,20 +423,17 @@ background-repeat: n;
     justify-content: center;
 }
 
-.sec7 h3 {
-    text-align: center;
-    font-size: 80px;
-    color: #3f3f3f;
-    font-weight: 400;
-    font-family: "Opensans";
-    margin: 0 40rem;
+.sec7 .row {
+    align-self: center;
+    margin: 0 auto;
+    padding:0 100vh;
 }
 
 .sec7 p {
-    margin: 0 200px;
     text-align: center;
-    width: 817px;
-    height: 161px;
+    width: 60%;
+    padding:20px;
+    margin: 0 200px;
     font-size: 20px;
     color: #3f3f3f;
     font-weight: 500;
@@ -473,16 +442,20 @@ background-repeat: n;
 
 .sec7 h6 {
     font-size: 20px;
-    line-height: 33px;
+    /* line-height: 33px; */
     color: #3f3f3f;
     font-weight: 600;
     font-family: "Opensans";
     text-align: center;
+    padding:20px;
 }
 
 .sec8 {
-    width: 1320px;
     background-color: #deb37e;
+}
+.sec8 img{
+    width:100%;
+    margin:0 auto;
 }
 
 .sec8 h3 {
@@ -537,19 +510,19 @@ background-repeat: n;
     background-color: #776c64;
     margin: 0 auto;
     overflow-x: hidden;
-    padding:0 20px;
+    padding-bottom: 40px;
 }
 
-.col-25{
-    width:25%;
-    margin:0 auto;
+.col-25 {
+    width: 25%;
 }
-.sec9 h4 {
+
+.sec-9 .col-25 h4 {
     font-size: 25px;
     color: #ffffff;
     font-weight: 300;
     font-family: "Opensans";
-    padding: 30px 20px;
+    padding: 20px 23px;
 }
 
 .sec9 p {
@@ -557,7 +530,7 @@ background-repeat: n;
     color: #ffffff;
     font-weight: 100;
     font-family: "Opensans";
-    padding: 10px 20px;
+    padding: 10px 10px;
 }
 
 .sec9 ul li {
@@ -573,14 +546,14 @@ background-repeat: n;
     color: #ffffff;
     font-weight: 300;
     font-family: "Opensans";
+    padding:5px 10px;
 }
 
-.row p{
+.row ol li {
     list-style: none;
     font-weight: 100;
     font-size: 22px;
     color: #ffffff;
     font-family: "Opensans";
+    padding: 5px 10px;
 }
-
-    

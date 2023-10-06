@@ -68,7 +68,7 @@
     font-family: "Latoreg";
     text-align: left;
     padding: 20px;
-    margin:20px 0;
+    margin: 20px 0;
 }
 
 .navbar li:nth-child(1) {
@@ -153,30 +153,139 @@
 .sec2 {
     background-color: black;
     color: #fff;
-    padding: 80px;
     text-align: center;
+    position: relative;
+    padding: 40px 0;
+
+}
+
+.sec2 .Limg1 {
+    position: absolute;
+    width: 30%;
+    Left: 0;
+}
+
+.sec2 .Limg12 {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
 }
 
 .sec2 h3 {
-    color: #fff;
-    width: 40%;
+    width: 35%;
     margin: 0 auto;
     font-size: 55px;
-    line-height: 55px;
-    color: #e9e7e7;
     font-weight: 500;
+    line-height: 55px;
+    color: #fff;
     font-family: "Cardo";
+    text-align: center;
 }
 
 .sec2 p {
-    color: #fff;
-    width: 40%;
+    width: 30%;
+    padding: 20px 0;
     margin: 0 auto;
-    width: 1170px;
-    height: 146px;
     font-size: 17px;
-    color: #e9e7e7;
     font-weight: 400;
+    color: #fff;
     font-family: "Lato";
     text-align: center;
 }
+
+.sec2 button {
+    border-radius: 2px;
+    padding: 5px 20px;
+    background-color: rgb(6, 6, 6);
+    border-color: #fff;
+}
+
+.sec2 button {
+    font-size: 17px;
+    color: #e9e7e7;
+    font-weight: 300;
+    font-family: "Latoreg";
+}
+
+.col-30 {
+    width: 30%;
+}
+
+.sec3 {
+    margin: 50px 0;
+}
+
+.sec3 .img1 {
+    position: absolute;
+    width: 100px;
+    left: -76px;
+}
+
+.ma-l {
+    margin-left: auto;
+    padding: 5px 0;
+}
+
+.ma-r {
+    margin-right: auto;
+    padding: 5px 0;
+}
+
+.sec3 .img2 {
+    position: absolute;
+    right: -30px;
+    overflow: hidden;
+}
+
+.icon {
+    text-align: center;
+}
+
+.box1 img {
+    width: 100%;
+}
+
+.box1 h3 {
+    font-size: 30px;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Cardo";
+}
+
+.box1 p {
+    font-size: 17px;
+    color: #232323;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: left;
+}
+
+.sec4 h2 {
+    font-size: 80px;
+    line-height: 98px;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Cardo";
+    text-align: center;
+    width: 60%;
+    text-align: center;
+}
+
+.col-30 {
+    width: 30%;
+}
+
+.col-30 .img1 {
+    width: 100%;
+}
+
+.box1 h3 {
+    font-size: 36px;
+    letter-spacing: -1px;
+    line-height: 36px;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Cardo";
+}
+
+.box1 p
