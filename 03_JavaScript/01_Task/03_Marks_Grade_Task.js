@@ -53,7 +53,7 @@ function calculate(){
             sum = m1 + m2 + m3 + m4 + m5;
             console.log("total marks", sum)
 
-            avg = (sum / 5)parseFloat;
+            avg = parseFloat(sum / 5);
 
             percentage = sum / 100 * 100;
             console.log("percentage=", per)
