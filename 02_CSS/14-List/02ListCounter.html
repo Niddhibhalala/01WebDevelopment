@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,15 +8,16 @@
     <style>
         ol {
             counter-reset: Section;
-            list-style-type:none;
+            list-style-type: none;
         }
 
-        li::before{
+        li::before {
             counter-increment: section;
             content: counter(section".")"";
         }
     </style>
 </head>
+
 <body>
     <h2>List counter</h2>
     <ol>
@@ -28,24 +30,23 @@
             <li>3.1</li>
             <li>3.2</li>
             <li>3.3</li>
-        <ol>
-            <li>3.3.1</li>
-            <li>3.3.2</li>
-            <li>3.3.3</li>
+            <ol>
+                <li>3.3.1</li>
+                <li>3.3.2</li>
+                <li>3.3.3</li>
+            </ol>
         </ol>
     <ol>
         <li>4</li>
         <li>5</li>
     </ol>
-    </ol>
+
+<ol>
+    <li>6</li>
+    <li>7</li>
+ </ol>
 
 
-    <ol>  
-        <li>6</li>
-        <li>7</li>
-    </ol>
-
-   
 </body>
-</html>
 
+</html>
