@@ -1,12 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-    /* border:1px solid red; */
-}
-
 @font-face {
     font-family: Latobla;
     src: url(../03-PSD-images/Font/Lato-Black.ttf)
@@ -21,9 +12,18 @@
     font-family: cardo;
     src: url(../03-PSD-images/Font/Cardo-Bold.ttf)
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    /* border:1px solid red; */
+}
+
 
 .container {
-    width: 1280px;
+    width: 1200px;
     margin: 0 auto;
 }
 

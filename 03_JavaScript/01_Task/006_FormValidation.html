@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2 {
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h2>Form </h2>
+    <fieldset>
+        <form action="" method="post">
+
+            <table>
+                <tr>
+                    <td><label for="">profile pic</label></td>
+                    <td> <input type="file" name="profile_pic" id="" accept="images"> </td>
+                </tr>
+                <tr>
+                    <td><label for="username">Username</label></td>
+                    <td><input type="text" name="firstname" id="firstname" onkeydown="checkreq(this,'userfirstnameError')" placeholder="First name" required>
+                        <p id="userfirstnameError"></p>
+                    </td>
+                    <td><input type="text" name="Lastname" id="Lastname" onkeyup="checkreq(this,'userLastnameError')" placeholder="Last name" required><span
+                            id="Lastname"></span><p id="userLastnameError"> </p></td>
+                </tr>
+
+                <tr>
+                    <td><label for="DOB">Date of Birth</label></td>
+                    <td><input type="date"  name="" id="" ondblclick="checkreq(this,'userbirthdate')" invalid><span id="DOB"></span><p id="usersbirthdate"></p></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender</label></td>
+                    <td><input type="radio" value="btn" name="Male" id="male"><label for="male"></label>male</span>
+                    <td><input type="radio" value="btn" name="female" id="female"><label for="female"></label><span
+                            id="female">female</span><p id="gendererror"></p></td>
+                </tr>
+
+                <tr>
+                    <td><label for="Eduqua">Education Qualification</label></td>
+                    <td><select name="" id="" required>
+                            <option value="">Qualification</option>
+                            <option value="">Post graduate</option>
+                            <option value="">graduate</option>
+                            <option value="">12th</option>
+                            <option value="">10th</option>
+                            <option value="">Other</option>
+                        </select></td>
+                </tr>
+
+                <tr>
+                    <td><label for=""></label>Address </td>
+                    <td><textarea name="" id="" cols="30" rows="7" required></textarea></td>
+                </tr>
+
+                <tr>
+                    <td><label for="">City</label></td>
+                    <td>
+                        <select name="" id="">
+                            <option value="">select city</option>
+                            <Option value="">Ahmedabad</Option>
+                            <Option value="">Baroda</Option>
+                            <Option value="">Rajkot</Option>
+                            <Option value="">Surat</Option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Mobile number</label></td>
+                    <td><input type="tel" name="" id="" onclick="checkreq(this,'Mobilenumber')"rquired><span id="tel"></span><p id=mobileno></p></p></td>
+                </tr>
+
+
+                <tr>
+                    <td><label for="">Email</label></td>
+                    <td><input type="email"  onclick="checkreq(this,'userbirthdate')" name="" id=""><span id="email"></span></td>
+                </tr>
+
+
+                <tr>
+                    <td><label for="password">password</label></td>
+                    <td><input type="password" name="" id=""><span id="password"></span></td>
+                </tr>
+
+
+
+                <tr>
+                    <td><label for="checkbox">Hobbies</label><span id="required any one"></span></td>
+                    <td><input type="checkbox" value="chk[]" name="reading" id="reading">Reading</td>
+                    <td><input type="checkbox" value="chk[]" name="playing" id="playing">Playing</td>
+                    <td><input type="checkbox" value="chk[]" name="sports" id="sports">sports</td>
+                </tr>
+
+                <tr>
+                    <td> <label for="">Course join </label> </td>
+                    <td>
+                        <select name="" id="">
+                            <option value="">Graphic Design</option>
+                            <option value="">Website Design</option>
+                            <option value="">frontend</option>
+                            <option value="">Backend</option>
+                            <option value="">Data Analysis/ Data Science</option>
+                            <option value="">Software Testing</option>
+                        </select>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td><label for="">Are you doing a Job?</label></td>
+                    <td>
+                        <select name="" id="">
+                            <optgroup label="yes">
+                                <option value="">Part-time job</option>
+                                <option value="">Full-time job</option>
+                            </optgroup>
+                            <optgroup label="No"></optgroup>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> <label for="">Salary Range</label> </td>
+                    <td><input type="range" name="" id=""></td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Working days in a week?</label></td>
+                    <td><input type="weeek" name="" id=""></td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Favourite Food</label></td>
+                    <td><select name="" id="">
+                            <option value="">Veg. food </option>
+                            <option value="">Non-veg. food </option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><label for="">Which type of festival you like?</label></td>
+                    <td><select name="" id="">
+                            <option value="">Diwali</option>
+                            <option value="">Holi</option>
+                            <option value="">Navratri</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Time</label></td>
+                    <td><input type="time" name="" id=""></td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Color </label></td>
+                    <td><input type="color"></td>
+                </tr>
+                <tr>
+                    <td><label for="">website link</label></td>
+                    <td><input type="url" name="" id=""></td>
+                </tr>
+
+
+                <tr>
+                    <td><input type="submit" name="btn" id="btn"></td>
+                    <td><input type="reset" name="btn" id="btn"></td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+
+    <script src="./006_Form_Validation.js"></script>
+
+    <!-- let input = /^([a-zA-Z])$/;
+        let aaa = document.getElementById("firstname").value;
+        console.log(aaa);
+        function checkreq(something, pid) {
+            // (something.value == ) ? document.getElementById(pid).innerHTML = "<b>This filed is required</b>": document.getElementById(pid).innerHTML = "";
+            if (something.value == "") {
+                document.getElementById(pid).innerText = "something"
+            } else {
+                if (!input.test(aaa)) {
+                    document.getElementById("firstname").focus()
+                } else {
+                    console.log("aaaaaaaa");
+                    // document.getElementById("firstname").focus()
+                }
+                document.getElementById(pid).innerText = "error"
+            }
+        } -->
+
+
+</body>
+
+</html
