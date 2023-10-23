@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+        <div class="Slider">
+            <div class="slider-js">
+                <img src="../../02_Imges/Features-of-JavaScript.webp" alt="">
+            </div>
+            <div class="slider-js">
+                <img src="../../02_Imges/typeof-operator-in-javascript.png" alt="">
+            </div>
+            <div class="slider-js">
+                <img src="../../02_Imges/variablemnaming.jpg" alt="" >
+            </div>
+        </div>
+        animation-delay: 5s;
+
+    <script>
+        let sliderdata = getelementbyclassname("slider-js")
+        let counter = 0;
+        function slider() {
+            for (let i = 0; i < sliderdata.length; i++) {
+                sliderdata[i].style.display = "none"
+            }
+
+            sliderdata[counter].style, display = "block"
+            counter++;
+            console.log("called", counter);
+            settimeout(slider, 60);
+        }
+
+       
+    </script>
+</body>
+
+</html>
