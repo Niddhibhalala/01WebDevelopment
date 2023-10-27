@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h3 {
+            text-align: center;
+        }
+
+        table {
+            border: 2px solid grey;
+            padding: 10px;
+        }
+
+        table,
+        tr,
+        th,
+        td {
+            border: 1px solid grey;
+            padding: 5px;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Module-4 <br>Javascript Basic & DOM</h3>
+
+    <fieldset>
+        <p><b>Q.1 What is Javascript?</b></p>
+        <p>Ans. Javascript is scripting language that enable you to create dynamically updating content, control
+            multimedia, animated images and much everything else.</p>
+
+        <p><b>Q.2 what is the use of is NaN function?</b></p>
+        <p>Ans.NaN is short form of <q><strong>Not-a-Number</strong></q> The Nan() method returns true if a value is
+            NaN.
+            The Nan() method
+            converts the value to a number before testing it. </p>
+
+        <p><b>Q.3 what Negative Infinity?</b></p>
+        <p>Ans.Negative Infinity is a special numeric value that is retun when an arithmetic operation or mathematical
+            function generates a negative value greater than the largest representable number in Javascript. </p>
+
+        <p><b>Q.3 which company developed Javascript?</b></p>
+        <p>Ans.Javascript was developed by Netscape Communicationa Corporation, a software company founded in 1994. The
+            language was intially created by Brendan Eich in May 1995. It was originally called "Mocha" and later
+            <strong>LiveScript</strong> before finally being renamed to <strong>JavaScript</strong> to capitalize on the
+            popularity of Java.
+        </p>
+
+        <p><b>Q.4 what are undeclared and undefined variables?</b></p>
+        <p>Ans. <strong>Undefined: </strong>It occurs when a variable has been declared but has not been assigned any
+            value. Undefined is not
+            a keyword. <strong>Undeclared:</strong>It occurs when we try to access any variable that is not initialized
+            or declared earlier using the var or const keyword.</p>
+
+        <p><b>Q.5 Write the code for adding new elements dynamically?</b></p>
+        <p>Ans. New element can be created in JS by using the <b>createElement() method:</b><br>
+            document.createElement(" <&it;tagname&gt;");<br>
+            <tagname>can be any HTML tag <br>
+            For E.g. let newDiv = document.createElement("Div")
+        </div>
+        </p>
+
+        <p><b>Q.6 what is the difference between Viewstate and Sessionstate?</b></p>
+        <p>Ans.View state can only be visible from a single page. <strong>Session state :</strong>value availability is
+            across all pages available in a user session.</p>
+
+        <p><b>Q.7 what is === Operator?</b></p>
+        <p>Ans.<b>strict equality(===)</b>operator checks whether its two operands are equal,returing a Boolean result. </p>
+
+        <table>
+            <tr>
+                <th>No.</th>
+                <th>Strict Equality Operator</th>
+                <th>Expected Output</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td> console.log (1===1);</td>
+                <td>true</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>console.log ("aaa"==="aaa");</td>
+                <td>true</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>console.log ("a"=== a);</td>
+                <td>False</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>console.log (0=== false );</td>
+                <td>False</td>
+            </tr>
+        </table>
+
+
+        <p><b>Q.8 How can the style/class of an element be changed?</b></p>
+        <p>Ans.The class name is used as a selector in HTML which helps to give some value to the element attributes. The
+            document.getElementById() method is used to return the element in the document with the <q>id</q>attribute
+            and the <q>className</q> attribute can be used to change the class of the element.</p>
+
+        <p><b>Q.9 How to read and write a file using JavaScript?</b></p>
+        <p>Ans. On the client side, can't read or write files in Javascript browsers.The module in Node.js may be used to
+            accomplish this on the server-side.</p>
+
+        <p><b>Q.10 What are all the looping structures in JavaScript?</b></p>
+        <p>Ans.
+        <table>
+            <tr>
+                <th>No.</th>
+                <th>Name of JS Loops</th>
+                <th>Uses</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>For</td>
+                <td>Loops through a block of code a number of times</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>While</td>
+                <td>Loops through a block of code while a specified condition is true</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Do/While</td>
+                <td>Loops through a block of code while a specified condition is true</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>For/in</td>
+                <td>Loops through the properties of an object.</td>
+            </tr>
+        </table></p>
+
+        <p><b>Q.11 How can you convert the string of any base to an interger in JavaScript?</b></p>
+        <p>Ans. Interger.valueOf() and Interger.parseInt() to convert a String to an interger in JavaScript:</p>
+
+        <p><b>Q.12 What is the function of the delete Opeator?</b></p>
+        <p>Ans. Delete operator removes a property form an object.If the property value is an object and there are no more
+            refences to the object,the object held by thst property is eventually relased automatically.</p>
+
+        <p><b>Q.13 What are the types of Pop up boxes available in JavaScript?</b></p>
+        <p>Ans. JavaScript has three types of popup boxes: (1)Alert boxes (2)Confirm Boxes (3)Prompt Box. </p>
+
+        <p><b>Q.14 What is the use of Void(0)?</b></p>
+        <p>Ans. Void(0) means returing undefined (void)as a primitive value.It is used to prevent any side effects caused
+            while inserting an expression in a web page.</p>
+
+        <p><b>Q.15 how can a page be forced to load another page in JavaScript?</b></p>
+        <p>Ans. Use window.location property inside the script tag to forcefully load another page in JavaScript.</p>
+
+        <p><b>Q.16 What are the Disadvantages of using inner HTML in JavaScript?</b></p>
+        <p>Ans. Inner HTML is slow because as inner HTML already parse the content even we have to parse the content again so
+            that's why it takes time.when we have used the event handlers then the event handlers are not automatically
+            attached to the new element created by innerHTML. </p>
+
+    </fieldset>
+</body>
+
+</html>

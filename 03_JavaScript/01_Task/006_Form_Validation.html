@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2{
+            text-align: center;
+        }
+        table{
+            width:65%;
+            background-color: burlywood;
+            border: 1px solid black;
+            padding:50px;
+            align-items: center;
+            margin:0 auto;
+        }
+       
+    </style>
+</head>
+<body>
+
+    <h2>Form </h2>
+<form action="" method="post">
+    <table>
+        <tr>
+            <td><label for="username">Username</label></td>
+            <td><input type="text" name="Fname" id="Fname" onclick="checkreq(this,Fnameerror)" placeholder="Fname"><span id="Fnameerror"></span></td>
+            <td><input type="text" name="Lname" id="Lname" placeholder="Lname"></td>
+        </tr>
+        <tr>
+            <td><label for="Gender">Gender</td>
+            <td><input type="radio" name="Gender" id="">Male</td>
+            <td><input type="radio" name="Gender" id="">Female</td>
+        </tr>
+        <tr>
+            <td><label for="Hobbies">Hobbies</label></td>
+            <td><input type="checkbox" value="reading" name="chk[]" id="">Reading</td>
+            <td><input type="checkbox" value="Sports" name="" id="">Sports</td>
+            <td><input type="checkbox" value="Swimming" name="" id="">Swimming</td>
+        </tr>
+        <tr>
+            <td><label for="Email">Email</label></td>
+            <td><input type="email" name="" id=""></td>
+        </tr>
+        <tr>
+            <td><label for="password">Password</label></td>
+            <td><input type="password" name=""id=""></td>
+        </tr>
+        <tr>
+            <td><label for="Mobileno">Mobile No.</label></td>
+            <td><input type="Tel" name="" id=""></td>
+        </tr>
+        <tr>
+            <td><button>submit</button></td>
+            <td><button>Reset</button></td>
+        </tr>
+    </table>
+</form>
+    <script src="./006_Form_Validation.js"></script>
+</body>
+</html>
