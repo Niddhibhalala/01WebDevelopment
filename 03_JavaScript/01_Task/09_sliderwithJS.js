@@ -4,7 +4,7 @@ function showslider() {
     for (let i = 0; i < slider.length; i++) {
         Slider[i].style.display = "none"
     }
-    slider[counter].style.display = "flex"
+    slider[counter].style.display = "none"
     counter++;
     console.log("called", counter);
     setTimeout(slider, 2000);
