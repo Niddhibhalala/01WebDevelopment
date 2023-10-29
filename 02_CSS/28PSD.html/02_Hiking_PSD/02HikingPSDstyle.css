@@ -1,3 +1,7 @@
+@font-face {
+    font-family: opensans;
+    src: url(./img_Font/Fonts-Open-sans/OpenSans-Medium.ttf);
+}
 * {
     margin: 0;
     padding: 0;
@@ -6,11 +10,14 @@
     text-decoration: none;
 }
 
-@font-face {
-    font-family: opensans;
-    src: url(./img_Font/Fonts-Open-sans/OpenSans-Medium.ttf);
+@media(min-width:576px){
+    .container{
+        width:540px;
+    }
+    .col-25,.col-50,.col-33{
+        width:100%;
+    }
 }
-
 .row {
     display: flex;
     flex-wrap: wrap;
