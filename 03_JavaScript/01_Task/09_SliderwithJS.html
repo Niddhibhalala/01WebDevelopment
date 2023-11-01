@@ -1,20 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./09_slider.css">
+    <!-- <script src="./09_sliderwithJS.js"defer that are taking the link as on header></script> -->
+    <style>
+        .banner img {
+            width: 60%;
+            height: 60%;
+            margin: 0 auto;
+        }
+    </style>
 </head>
+
 <body>
     <div class="slide">
-        <div class="banner"><img src="./images/arnel-hasanovic-MNd-Rka1o0Q-unsplash.jpg" alt="" style="width:100%"></div>
-        <div class="banner"><img src="./images/austin-distel-744oGeqpxPQ-unsplash.jpg" alt="" style="width:100%"></div>
-        <div class="banner"><img src="./images/carlos-muza-hpjSkU2UYSU-unsplash.jpg" alt="" style="width:100%"></div>
-        <div class="banner"><img src="./images/headway-5QgIuuBxKwM-unsplash.jpg" alt="" style="width:100%"></div>
-    
+        <div class="banner"><img src="./images/arnel-hasanovic-MNd-Rka1o0Q-unsplash.jpg" alt=""></div>
+        <div class="banner"><img src="./images/austin-distel-744oGeqpxPQ-unsplash.jpg" alt=""></div>
+        <div class="banner"><img src="./images/carlos-muza-hpjSkU2UYSU-unsplash.jpg" alt=""></div>
+        <div class="banner"><img src="./images/headway-5QgIuuBxKwM-unsplash.jpg" alt=""></div>
+
     </div>
-    <script src="./09_sliderwithJS.js"></script>
-    <!-- <script src="./09_sliderwithJS.js" defer that are taking the link as on header></script> -->
+    <!-- <script src="./09_sliderwithJS.js"></script> -->
+    <script>
+        let slide = document.getElementsByClassName("banner")
+        let counter = 0
+        function slide() {
+            for (let i = 0; i < slide.length; i++) {
+                slide[i].style.display = "none"
+            }
+            slide[counter].style.display = "block"
+            counter++;
+            console.log("called", counter);
+            setTimeout(slide, 2000);
+        }
+        slide()
+s
+    </script>
 </body>
+
 </html>

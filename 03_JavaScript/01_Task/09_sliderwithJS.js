@@ -1,13 +1,13 @@
-let slide(n) = document.getElementsByClassName("banner")
+let slideData = document.getElementsByClassName("banner")
 let counter = 0
-function showslider() {
-    for (let i = 0; i < slider.length; i++) {
-        Slider[i].style.display = "none"
+function slide() {
+    for (let i = 0; i < slide.length; i++) {
+        slide[i].style.display = "none"
     }
-    slider[counter].style.display = "none"
+    slide[counter].style.display = "block"
     counter++;
     console.log("called", counter);
-    setTimeout(slider, 2000);
-
+    setTimeout(slide, 2000);
 }
-slider()
+slide()
+
