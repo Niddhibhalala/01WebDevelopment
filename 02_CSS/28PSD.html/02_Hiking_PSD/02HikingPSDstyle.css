@@ -241,7 +241,7 @@
     width: 50%;
 }
 
-.col-50 img {
+.pic1 img {
     width: 50%;
 }
 
@@ -493,11 +493,8 @@
     padding-bottom: 40px;
 }
 
-.col-25 {
-    width: 25%;
-}
 
-.sec-9 h4 {
+.pic1 h4 {
     font-size: 25px;
     color: #ffffff;
     font-weight: 300;
@@ -519,14 +516,6 @@
     display: inline-block;
     background-color: #fff;
     border-radius: 30px;
-}
-
-.col-25 h4 {
-    font-size: 25px;
-    color: #ffffff;
-    font-weight: 300;
-    font-family: "Opensans";
-    padding:5px 10px;
 }
 
 .row ol li {
