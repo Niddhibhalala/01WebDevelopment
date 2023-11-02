@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./05_Marichi.css">
 </head>
 
@@ -13,14 +15,16 @@
 
     <header class="header">
         <div class="row line">
-            <div class="navbar">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Offers</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
+            <div class="col100 ">
+                <div class="navbar align jst">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Offers</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
 
@@ -37,25 +41,37 @@
         </div>
     </header>
 
-    <section class="sec1 align jst ">
-        <h4>Don't miss our Menu</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum deleniti distinctio sit necessitatibus
-            ipsum amet.</p>
-        <button class="seemenu">See Menu</button>
-        <div class="container-fluid">
-            <img src="./imges_font/img2.png" alt="" class="img2 ">
+    <section class="sec1  ">
+        <div class="container">
+            <div class="row ">
+                <div class="col100 align jst">
+                    <div>
+                        <h4>Don't miss our Menu</h4>
+                    </div>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quod cumque maxime earum
+                            fugiat
+                            consequatur!</p>
+                    </div>
+                    <button class="seemenu">See Menu</button>
+
+                </div>
+            </div>
         </div>
     </section>
+    <div class="container-fluid">
+        <img src="./imges_font/img2.png" alt="" class="img2 ">
+    </div>
 
     <section class="sec2">
         <div class="container">
-            <div class="row">
+            <div class="row jst align">
                 <div class="col50">
                     <img src="./imges_font/img3.png" alt="" class="img3">
                 </div>
 
                 <div class="col50">
-                    <div class="aboutMarichi">
+                    <div class="aboutMarichi ">
                         <h5>About Marichi</h5>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur explicabo commodi atque
                             ipsam est repudiandae exercitationem repellat aperiam ipsum maiores?</p>
@@ -65,21 +81,25 @@
     </section>
 
 
-    <section class="sec3 padding">
+    <section class="sec3 ">
         <div class="container">
             <div class="row">
-                <div class="image4 ">
-                    <h3>25%</h3>
-                    <h5>Discount</h5>
-                    <h4>On Tacos</h4>
+                <div class="col100">
+                    <div class=" image4 posab">
+                        <h3>25%</h3>
+                        <h5>Discount</h5>
+                        <h4>On Tacos!</h4>
+                    </div>
+                    <div class=" image4">
+                        <img src="./imges_font/img4.png" alt="">
+                    </div>
                 </div>
             </div>
-        </div>
     </section>
 
     <section class="sec4">
         <div class="container">
-            <div class="row">
+            <div class="row align jst ">
                 <div class="col50 seeoffer">
                     <h4>See Our Offers</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus corporis delectus quia!
@@ -94,13 +114,15 @@
     </section>
 
     <section class="sec5">
-        <div class="row">
+        <div class="row align jst">
             <div class="container">
-                <div class="pedro">
-                    <img src="./imges_font/logo1.png" alt="" class="log2">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate ex odio fugiat itaque sint
-                        possimus corporis fugit minus maxime eaque?</p>
-                    <h6>pedro Rodriguez</h6>
+                <div class="col100">
+                    <div class="pedro">
+                        <img src="./imges_font/logo1.png" alt="" class="log2">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate ex odio fugiat itaque sint
+                            possimus corporis fugit minus maxime eaque?</p>
+                        <h5>Pedro Rodriguez</h5>
+                    </div>
                 </div>
             </div>
         </div>
@@ -108,13 +130,15 @@
 
     <section class="sec6">
         <div class="container">
-            <div class="row">
-                <div class="Latestoffer">
+            <div class="row Latestoffer">
+                <div class="col100">
                     <h4> Get our Latest offer</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque velit perspiciatis officia
                         mollitia ducimus fuga doloribus in harum temporibus error.</p>
-                    <input type="email" name="email" id="email" placeholder="Your Email">
-                    <button class="Subscribe">Subscribe</button>
+                    <div class="btn">
+                        <input type="email" name="email" id="email" placeholder="Your Email" class="emi">
+                        <button>Subscribe</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -122,19 +146,20 @@
 
     <footer class="sec7">
         <div class="container">
-            <div class="row">
-                <div class="col25 FLast">
+            <div class="row jst">
+                <div class="col35 FLast fhadding">
                     <h4>Marichi</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, deleniti, possimus nobis ullam officia eveniet ad dolorum excepturi magni illum sequi facilis quis! Reprehenderit odio ab at corporis.</p>
-                <ul class="faceb">
-                   <li> <i class="fa-brands fa-facebook"></i></li>
-                   <li> <i class="fa-brands fa-instagram"></i></li>
-                   <li> <i class="fa-brands fa-twitter"></i></li>
-                   <li> <i class="fa-brands fa-twitter"></i></li>
-                </ul>
+                    <p class="fhadding">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, deleniti,
+                        possimus nobis ullam officia eveniet ad dolorum excepturi magni illum sequi facilis quis!
+                        Reprehenderit odio ab at corporis.</p>
+                    <ul class="faceb ">
+                        <li> <i class="fa-brands fa-facebook"></i></li>
+                        <li> <i class="fa-brands fa-instagram"></i></li>
+                        <li> <i class="fa-brands fa-twitter"></i></li>
+                    </ul>
 
                 </div>
-                <div class="col25">
+                <div class="col15 fhadding">
                     <h4>About</h4>
                     <ol>
                         <li>History</li>
@@ -144,7 +169,7 @@
                         <li>Privacy Policy</li>
                     </ol>
                 </div>
-                <div class="col25">
+                <div class="col15 fhadding">
                     <h4>Services</h4>
                     <ol>
                         <li>How to order</li>
@@ -154,7 +179,7 @@
                         <li>Payment Methos</li>
                     </ol>
                 </div>
-                <div class="col25">
+                <div class="col15 fhadding">
                     <h4>Other</h4>
                     <ol>
                         <li>Contact us</li>

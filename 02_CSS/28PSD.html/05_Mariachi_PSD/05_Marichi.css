@@ -16,13 +16,41 @@
     margin: 0 auto;
 }
 
+.col100{
+    width:100%;
+}
+.col15 {
+    width: 15%;
+}
+
+.col35 {
+    width: 35%;
+}
+
+.col50 {
+    width: 50%;
+}
+
 ul li a {
     text-decoration: none;
     list-style: none;
+    color: #ffd7ad;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: "Roboto";
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .align {
     align-items: center;
+    margin:0 auto;
+}
+
+.jst {
+    justify-content: space-between;
 }
 
 .header {
@@ -35,18 +63,12 @@ ul li a {
     padding: 50px 0;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .line {
     background-color: brown;
 }
 
 .navbar {
-    align-items: center;
-    margin: 0 auto;
+    text-align: center;
 }
 
 .navbar ul li {
@@ -56,10 +78,6 @@ ul li a {
     font-family: "montserrat";
     display: inline-block;
     padding: 10px;
-}
-
-.col50 {
-    width: 50%;
 }
 
 .headerbg {
@@ -78,6 +96,7 @@ ul li a {
 }
 
 .logo1 p {
+    width: 80%;
     font-size: 25px;
     color: #ffd7ad;
     font-weight: 70;
@@ -85,9 +104,11 @@ ul li a {
 }
 
 button {
+    border:none;
+    outline:none;
     border-radius: 33px;
     background-color: #ffd7ad;
-    padding: 10px 50px;
+    padding: 10px 30px;
     margin: 30px 0;
 }
 
@@ -99,12 +120,13 @@ button {
 }
 
 .sec1 {
-    text-align: center;
     background-color: #ffd7ad;
     padding: 20px 20px;
+    text-align: center;
 }
 
 .sec1 h4 {
+    text-align: center;
     font-size: 50px;
     color: #4a1831;
     font-weight: 500;
@@ -113,7 +135,10 @@ button {
 }
 
 .sec1 p {
-    font-size: 25px;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
     color: #4a1831;
     font-weight: 300;
     font-family: "Roboto";
@@ -163,6 +188,8 @@ button {
 }
 
 .aboutMarichi p {
+    width: 80%;
+    text-align: justify;
     font-size: 20px;
     color: #4a1831;
     font-weight: 100;
@@ -175,9 +202,17 @@ button {
 }
 
 .sec3 {
-    background-image: url(./imges_font/img4.png);
     background-color: #ffd7ad;
-    background-size: cover;
+}
+
+.image4 img {
+    width: 90%;
+    padding: 0 50px;
+    margin: 0 60px;
+}
+
+.posab {
+    position: absolute;
 }
 
 .image4 h3 {
@@ -219,6 +254,7 @@ button {
 }
 
 .seeoffer p {
+    width: 80%;
     font-size: 20px;
     color: #ffd7ad;
     font-weight: 100;
@@ -227,7 +263,7 @@ button {
 }
 
 .img5 img {
-    width: 80%;
+    width: 90%;
 }
 
 .sec5 {
@@ -245,6 +281,18 @@ button {
 }
 
 .pedro p {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    color: #ffd7ad;
+    font-weight: 300;
+    font-family: "Roboto";
+    text-align: center;
+    padding: 20px 0;
+}
+
+.pedro h5 {
     font-size: 30px;
     color: #ffd7ad;
     font-weight: 500;
@@ -253,18 +301,9 @@ button {
     padding: 20px 0;
 }
 
-.pedro h6 {
-    font-size: 40px;
-    color: #ffd7ad;
-    font-weight: 600;
-    font-family: "Roboto";
-    text-align: center;
-    padding: 20px 0;
-}
-
 .sec6 {
     background-color: #ffd7ad;
-    padding:40px 0;
+    padding: 40px 0;
 }
 
 .Latestoffer h4 {
@@ -273,49 +312,82 @@ button {
     font-weight: 500;
     font-family: "Roboto";
     text-align: center;
-    padding:30px 0;
+    padding: 30px 0;
 }
 
 .Latestoffer p {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
     font-size: 20px;
     color: #4a1831;
     font-weight: 100;
     font-family: "Roboto";
+}
+
+.Latestoffer {
     text-align: center;
 }
 
-.Latestoffer input{
-    padding: 10px 0;
-    border-radius: 33px;
-    align-items: center;
-    display: inline-block;
-    width:40%;
-
+.btn {
+    text-align: center;
 }
-.Subscribe {
+
+.btn input {
+    border-radius: 33px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    padding:10px 10px;
+    width:30%;
+}
+
+.btn button {
     background-color: #4a1831;
     color: aliceblue;
-    margin:30px 0;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto";
+    margin-left: -62px;
 }
 
-.sec7{
+.sec7 {
     background-color: #4a1831;
     color: #ffd7ad;
-    padding:30px 0;
+    padding: 30px 0;
 }
 
-.col25{
-    width:25%;
-}
-
-.sec7 ul li{
+.sec7 ul li {
     border-radius: 30px;
-    margin:5px;
-    padding:3px;
+    margin: 5px;
+    padding: 3px;
     display: inline-block;
-    background-color: #ffd7ad;
 }
-.faceb ul li{
+
+.faceb ul li i {
     list-style: none;
-    padding:5px 10px;
+    padding: 5px 10px;
+}
+.fhadding{
+    font-size: 13px;
+    font-weight: 200;
+    font-family: "Roboto";
+    font-family: "Roboto";
+}
+
+.fhadding h4 {
+    font-size: 15px;
+    font-weight: 300;
+    padding: 20px 5px;
+}
+
+.fhadding p {
+    width: 70%;
+    padding: 10px 5px;
+}
+
+.fhadding ol li {
+    padding: 5px;
 }
