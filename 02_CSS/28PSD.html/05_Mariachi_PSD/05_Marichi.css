@@ -5,41 +5,10 @@
     text-decoration: none;
     list-style: none;
 }
+
 @font-face {
     font-family: "Roboto";
     src: url(./imges_font/Font/Roboto-Medium.ttf);
-}
-
-.container {
-    width: 1160px;
-    margin: 0 auto;
-}
-@media (min-width: 576px) {
-    .container {
-        width: 520px;
-    }
-    .col15,
-    .col35,
-    .col50 {
-        width: 50%;
-    }
-    .col100{
-        width:100%;
-    }
-}
-.col100{
-    width:100%;
-}
-.col15 {
-    width: 15%;
-}
-
-.col35 {
-    width: 35%;
-}
-
-.col50 {
-    width: 50%;
 }
 
 ul li a {
@@ -50,6 +19,7 @@ ul li a {
     font-weight: 300;
     font-family: "Roboto";
 }
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -57,7 +27,7 @@ ul li a {
 
 .align {
     align-items: center;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 .jst {
@@ -81,14 +51,17 @@ ul li a {
 .navbar {
     text-align: center;
 }
-
+html{
+    font-size: 50%;
+}
 .navbar ul li {
-    font-size: 15px;
+    font-size: 1rem;
     color: #ffd7ad;
     font-weight: 400;
     font-family: "montserrat";
     display: inline-block;
     padding: 10px;
+    margin: 0 auto;
 }
 
 .headerbg {
@@ -115,8 +88,8 @@ ul li a {
 }
 
 button {
-    border:none;
-    outline:none;
+    border: none;
+    outline: none;
     border-radius: 33px;
     background-color: #ffd7ad;
     padding: 10px 30px;
@@ -170,6 +143,7 @@ button {
 .img2 {
     background-color: #ffd7ad;
     width: 100%;
+    display: block;
 }
 
 .sec2 {
@@ -192,9 +166,9 @@ button {
 .aboutMarichi h5 {
     margin: 40px 0 20px 0;
     padding: 40px 0 0 0;
-    font-size: 50px;
+    font-size: 40px;
     color: #4a1831;
-    font-weight: 500;
+    font-weight: 400;
     font-family: "Roboto";
 }
 
@@ -212,11 +186,17 @@ button {
     background-color: #4a1831;
 }
 
+.sec2,
+.sec3 {
+    overflow: hidden;
+}
+
 .sec3 {
     background-color: #ffd7ad;
 }
 
 .image4 img {
+    display:block;
     width: 90%;
     padding: 0 50px;
     margin: 0 60px;
@@ -288,7 +268,7 @@ button {
     width: 20%;
     display: block;
     margin: 0 auto;
-    padding: 30px;
+    padding: 20px;
 }
 
 .pedro p {
@@ -349,8 +329,8 @@ button {
     font-size: 15px;
     border: none;
     outline: none;
-    padding:10px 10px;
-    width:30%;
+    padding: 10px 10px;
+    width: 30%;
 }
 
 .btn button {
@@ -371,7 +351,7 @@ button {
 }
 
 .sec7 ul li {
-    border-radius: 30px;
+    border-radius: 2rem;
     margin: 5px;
     padding: 3px;
     display: inline-block;
@@ -381,15 +361,16 @@ button {
     list-style: none;
     padding: 5px 10px;
 }
-.fhadding{
-    font-size: 13px;
+
+.fhadding {
+    font-size: 1rem;
     font-weight: 200;
     font-family: "Roboto";
     font-family: "Roboto";
 }
 
 .fhadding h4 {
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 300;
     padding: 20px 5px;
 }
@@ -401,4 +382,99 @@ button {
 
 .fhadding ol li {
     padding: 5px;
+}
+
+.container {
+    /* width: 1160px; */
+    width: 100%;
+    margin: 0 auto;
+}
+
+.col100 {
+    width: 100%;
+}
+
+.col50 {
+    /* width: 50%; */
+    width: 100%;
+}
+
+.col35 {
+    /* width: 35%; */
+    width: 100%;
+}
+
+.col15 {
+    /* width: 15%; */
+    width: 100%;
+}
+
+@media(min-width:567px) {
+    .container {
+        width: 525px;
+    }
+
+    .col15{
+        width:50%;
+    }
+    .col35,
+    .col50,
+    .col100 {
+        width: 100%;
+    }
+    html{
+        font-size:50%;
+
+    }
+}
+
+@media(min-width:762px) {
+    .container {
+        width: 720px;
+    }
+
+    .col100 {
+        width: 100%;
+    }
+
+    .col50 {
+        width: 50%;
+    }
+
+    .col35 {
+        width: 25%;
+    }
+
+    .col15 {
+        width: 15%;
+    }
+}
+
+@media(min-width:992px) {
+    .container {
+        width: 950px;
+    }
+
+    .col100 {
+        width: 100%;
+    }
+
+    .col50 {
+        width: 50%;
+    }
+
+    .col35 {
+        width: 35%;
+    }
+
+    .col15 {
+        width: 15%;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        width: 1160px;
+    }
+
 }

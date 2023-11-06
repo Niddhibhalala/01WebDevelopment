@@ -1,46 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		h2 {
+			color: cadetblue;
+			text-align: center;
+		}
+
+		/* .box {
+			background-color: cornflowerblue;
+			color: aliceblue;
+			text-align: center;
+			margin: 0 auto;
+			width: 80%;
+			padding: 50px;
+		} */
+	</style>
 </head>
+
 <body>
-    style
-    
+
+	<h2>Add new element dynamic</h2>
+
+	<!-- <div class="box"> -->
+		<form action="#">
+
+			<p><label for="type">Add Element Type </label>
+				<input type="text" id="type" value="li" placeholder="span">
+			</p>
+			<p><label for="value"> Add Element Value</label>
+				<input type="text" id="value" value="child2" placeholder="Hii">
+			</p>
+		<button type="button" onClick="addItem()"> Add</button>
+		</form>
+		<ol id="parent">
+			<li>List Item 1</li>
+		</ol>
+	<!-- </div> -->
+	<script>
+		function addItem() {
+			let type = document.getElementsById("type").type;
+			let value = document.getElementsById("value").value;
+			type=document.createElement(DocumentType);
+			type.appendchild(document.createTextNode(value));
+			document.getelementById("parent").appendchild(type);
+		}
+	</script>
 </body>
+
 </html>
-<h1 style="color:rgb(0, 49, 128);"> 
-	GeeksforGeeks 
-</h1> 
-
-<form action=""> 
-
-	<label for="type">Add Element Type </label> 
-	<input type="text" id="type"  value="" placeholder="Add some text/number"> 
-	
-    <label for="value"> Add Element</label>
-	<input type="text" id="value" value="" placeholder="Add value"> 
-
-	<button type="button" onClick="addItem()"> 
-		Add 
-	</button> 
-</form> 
-
-<ol id="parent"> 
-	<li>List Item 1</li> 
-</ol> 
-
-<script> 
-	function addItem() { 
-		let type = document. 
-			getElementById("type").value; 
-		let value = document. 
-			getElementById("value").value; 
-		type 
-			= document.createElement(type); 
-		type.appendChild( 
-			document.createTextNode(value)); 
-		document.getElementById("parent").appendChild(type); 
-	} 
-</script>

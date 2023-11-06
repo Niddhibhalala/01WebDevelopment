@@ -51,6 +51,7 @@ a {
 }
 
 .sec1 {
+    overflow: hidden;
     background-color: #222831;
     color: #ffffff;
 }
@@ -81,17 +82,17 @@ ol li {
 
 .img3 {
     top: 0px;
-    left:0px;
+    left: 41px;
 }
 
 .img4 {
-    top:170px;
-    right:80px;
+    top: 150px;
+    right: 0px;
 }
 
-.img5{
-    bottom:70px;
-    right: 220px;
+.img5 {
+    bottom: 100px;
+    right: 130px;
 }
 
 .coffee h2 {
@@ -116,7 +117,7 @@ ol li {
     padding: 10px 0;
 }
 
-button {
+.btn {
     background-color: #29a19c;
     color: #ffffff;
     margin: 10px 0;
@@ -138,15 +139,26 @@ button {
 
 .img1 {
     width: 50%;
-    left: 30px;
+    left: 25px;
+    top: 0px;
 }
 
 .img1 img {
     width: 100%;
 }
 
-.wavegen{
-    /* width:1220px; */
+.wav {
+    bottom: 0;
+    z-index: 2;
+}
+
+.wav>img {
+    display: block;
+    width: 100%;
+}
+
+/* .wavegen{
+    width:1220px;
     z-index:1;
 }
 
@@ -163,7 +175,7 @@ button {
 }
 .sec1,
 .sec2{
-    /* overflow-x: clip; */
+    overflow-x: clip;
     overflow: hidden;
 }
 .wavegen svg{
@@ -173,4 +185,45 @@ button {
 .sec2{
     position: relative;
     z-index: 1;
+} */
+/* .sec1,
+.sec2 {
+    overflow: hidden;
+} */
+/* .coff {
+    background-color: #29a19c;
+    color: #ffffff;
+} */
+.sec2{
+    background-color: #29a19c;
+    color: #ffffff;
+}
+.sec2 .img{
+    width:100%; 
+}
+.black>h4 {
+    font-size: 5rem;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "GrandHotel";
+    text-align: center;
+}
+
+.img42 {
+    z-index: 3;
+    left: 262px;
+    bottom: 6px;
+}
+
+.now {
+    background-color: #222831;
+    color: #ffffff;
+}
+
+.now>.ord {
+    color: #ffffff;
+    padding: 5px 20px;
+}
+.imga{
+    right:50px;
 }
