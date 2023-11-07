@@ -16,7 +16,7 @@
 }
 
 .container {
-    width: 1220px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -139,7 +139,7 @@ ol li {
 
 .img1 {
     width: 50%;
-    left: 25px;
+    left: 35px;
     top: 0px;
 }
 
@@ -157,56 +157,17 @@ ol li {
     width: 100%;
 }
 
-/* .wavegen{
-    width:1220px;
-    z-index:1;
+.sec2 {
+    background-color: #29a19c;
+    color: #ffffff;
 }
 
-.bg{
-    background-color:#29a19c;
-    position: relative;
-    z-index: 1;
-    height: 500px;
-}
-.wavegen{
-    position: absolute;
-    z-index: 2;
-    top:-190px;
-}
-.sec1,
-.sec2{
-    overflow-x: clip;
-    overflow: hidden;
-}
-.wavegen svg{
-    height: 286px;
-    width: 100%;
-} 
-.sec2{
-    position: relative;
-    z-index: 1;
-} */
-/* .sec1,
-.sec2 {
-    overflow: hidden;
-} */
-/* .coff {
-    background-color: #29a19c;
-    color: #ffffff;
-} */
-.sec2{
-    background-color: #29a19c;
-    color: #ffffff;
-}
-.sec2 .img{
-    width:100%; 
-}
 .black>h4 {
-    font-size: 5rem;
+    font-size: 6rem;
     color: #ffffff;
     font-weight: 300;
     font-family: "GrandHotel";
-    text-align: center;
+    margin:20px 0px;
 }
 
 .img42 {
@@ -218,12 +179,45 @@ ol li {
 .now {
     background-color: #222831;
     color: #ffffff;
+    border-radius: 8px;
+    padding: 10px 20px;
 }
 
-.now>.ord {
-    color: #ffffff;
+.ord {
     padding: 5px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "Montserrat";
 }
-.imga{
-    right:50px;
+
+.imga {
+    right: 90px;
+}
+
+.imgb {
+    bottom: -8px;
+    right: 100px;
+}
+
+.img6 img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+.img3A {
+    top: 0;
+    right: 40px;
+}
+
+.img42A {
+    bottom: 143px;
+    right: 50px;
+}
+.lorem {
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: "Montserrat";
+    text-align: right;
+    padding: 20px;
 }
