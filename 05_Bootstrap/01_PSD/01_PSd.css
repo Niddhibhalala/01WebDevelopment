@@ -1,0 +1,21 @@
+.container{
+    width:1220px;
+    margin:0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.title{
+    padding:2px 20px;
+    background-color: rgb(20, 67, 109,91, 120) ;
+    align-items: center;
+    justify-content: space-between;
+}
+.box{
+    background-color:#37517e;
+    color:white;
+    align-self: center;
+    justify-content: space-between;
+}
+    

@@ -167,7 +167,7 @@ ol li {
     color: #ffffff;
     font-weight: 300;
     font-family: "GrandHotel";
-    margin:20px 0px;
+    margin: 20px 0px;
 }
 
 .img42 {
@@ -199,6 +199,10 @@ ol li {
     right: 100px;
 }
 
+.imgc {
+    z-index: 2;
+}
+
 .img6 img {
     width: 70%;
     display: block;
@@ -219,5 +223,39 @@ ol li {
     font-weight: 300;
     font-family: "Montserrat";
     text-align: right;
-    padding: 20px;
+    padding: 40px;
+    letter-spacing: 2px;
+    z-index:2;
+}
+
+.sec1-2 {
+    z-index: 0;
+    top:-120px;
+}
+
+.sec1-2 img {
+    width: 100%;
+}
+
+.sec2,
+.sec3 {
+    position:relative;
+    z-index: -1;
+}
+
+.sec3 {
+    background-color: black;
+}
+.img2{
+    margin:50px 0;
+}
+.img2 img {
+    width: 70%;
+}
+.img2 p{
+    width:70%;
+    font-size: 15px;
+    font-weight: 300;
+    color: #ffffff;
+    font-family: "Montserrat";
 }
