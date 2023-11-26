@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+        .Content1 {
+            width: 20%;
+            padding:20px 20px;
+            margin:20px;
+            background-color: rgb(75, 72, 215);
+            color: aliceblue;
+            text-align: center;
+            position: absolute;
+        }
+
+        .disnon {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="btnAddClass">Add Class</button>
+    <button id="btnRemoveClass">RemoveClass</button>
+    <button id="btnToggleClass">ToggleClass</button>
+    <button id="btnAnimate">Start Animate</button>
+
+    <div class="Content1" id="Content1"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, asperiores.</p></div>
+
+    <script>
+        $(btnAddClass).on("click",function(){
+            $("#Content1").addClass("disnon");
+        })
+
+        $(btnRemoveClass).on("click",function(){
+            $("#Content1").removeClass("disnon");
+        })
+
+        $(btnToggleClass).on("click",function(){
+            $("#Content1").toggleClass("disnon");
+        })
+        $(btnAnimate).on("click",function(){
+            $("#Content1").animate({left:"400px"});
+        })
+
+    </script>
+</body>
+
+</html>
