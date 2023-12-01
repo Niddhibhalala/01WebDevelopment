@@ -10,21 +10,23 @@
             width: 1200px;
             margin: 0 auto;
         }
-        table{
-            width:50%;
+
+        table {
+            width: 50%;
             text-align: center;
-            Border:2px solid grey;
+            Border: 2px solid grey;
             align-items: center;
             margin: 0 auto;
-            border-collapse:collapse;
+            border-collapse: collapse;
         }
-         tr,th,td{
-            border:1px solid grey;
-            padding:10px;
 
+        tr,
+        th,
+        td {
+            border: 1px solid grey;
+            padding: 10px;
         }
     </style>
-
 </head>
 
 <body>
@@ -53,15 +55,14 @@
                 "Helvetica Neue", Helvetica, Arial, sans-serif. In addition, all <&it;p&gt; elements have margin-top: 0
                     and margin-bottom: 1rem. </p>
 
-                    <p><b>Q.4 what do you know about the Bootstarp Grid system?</b></p>
+            <p><b>Q.4 what do you know about the Bootstarp Grid system?</b></p>
                     <p>Ans. Bootstrap's grid system uses a series of containers, rows, and columns to layout and align
-                        content. It's built with flexbox and is fully responsive. Below is an example and an in-depth
-                        look at how the grid comes together.
+                        content. It's built with flexbox and is fully responsive. 
                     </p>
 
-                    <p><b>Q.5 What is the difference between Bootstarp 4 and Bootstarp 5?</b></p>
+            <p><b>Q.5 What is the difference between Bootstarp 4 and Bootstarp 5?</b></p>
                     <p>Ans. Difference between Bootstrap 4 and Bootstrap 5 are
-                    <table >
+                    <table>
                         <tr>
                             <th>BASIS OF</th>
                             <th>BOOTSTRAP 4 </th>
@@ -72,23 +73,97 @@
                             <td>It has 5 tier (xs, sm, md, lg, xl).</td>
                             <td>It has 6 tier (xs, sm, md, lg, xl, xxl).</td>
                         </tr>
-                    
-                    <tr>
-                        <td><strong>Color</strong></td>
-                        <td>It has Limited colors.</td>
-                        <td>Extra colors added with the looks, A card improved color palette. there are various shades
-                            available to choose.</td>
-                    </tr>
-                    <tr>
-                        <td><strong></strong></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                </table>
+
+                        <tr>
+                            <td><strong>Color</strong></td>
+                            <td>It has Limited colors.</td>
+                            <td>Extra colors added with the looks, A card improved color palette. there are various
+                                shades
+                                available to choose.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Jquery</strong></td>
+                            <td>It has jquery and all related plugins.</td>
+                            <td>Jquery is removed and switched to vanilla JS with some working plugins</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Internet Explorer</strong></td>
+                            <td>Bootstrap 4 supports both IE 10 and 11.</td>
+                            <td>Bootstrap 5 doesn't support IE 10 and 11.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Form Elements</strong></td>
+                            <td>Radio buttons, checkboxes have different look in different OS and browsers. The form
+                                uses whatever default browsers provide.</td>
+                            <td>The look of form elements will not change, on different OS or browser. The forms can be
+                                customized and form controls can be added, they would not depend on browser. </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Utitilies API</strong></td>
+                            <td>We cannot modify utilities in bootstrap 4</td>
+                            <td>Bootstrap 5 gave freedom to modify and also create our own utility</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Gutter</strong></td>
+                            <td>We use .glutter with fontsize in px</td>
+                            <td>We use .g* with fontsize in rem</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Vertical Classes</strong></td>
+                            <td>Columns can be positioned relative</td>
+                            <td>Columns cannot be positioned relative</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Bootstrap Icons</strong></td>
+                            <td>Columns cannot be positioned relative</td>
+                            <td>Bootstrap 5 have its own SVG icons</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Card deck</strong></td>
+                            <td>The card deck is used to create a set of cards with equal width and height.</td>
+                            <td>Card deck class in removed in bootstrap</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Navbar </strong></td>
+                            <td>We have inline-block property and we will get white dropdown as default for
+                                dropdown-menu-dark class.</td>
+                            <td>Inline-block property is removed and we will get black dropdown as default for
+                                dropdown-menu-dark class.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Static Site Generator</strong></td>
+                            <td>Bootstrap 4 uses Jekyll software.</td>
+                            <td>Bootstrap 5 uses Hugo software as it is fast static site generator.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Flexbox Grid</strong></td>
+                            <td>this makes easier to implement vertical designs, and the columns and rows can easily be
+                                implemented. the classes justify-center-content can directly be used to align according
+                                to the requirement.</td>
+                            <td>advanced grid system is made available , also columns don't have relative positions.  </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Right to Left</strong></td>
+                            <td>It does not enable Right to Left switching.</td>
+                            <td>It enables Right to Left switching.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Offcanvas Component</strong></td>
+                            <td>It does not support Offcanvas Component.</td>
+                            <td>It supports Offcanvas Component(that is it is available now).
+                            </td>
+                        </tr>
+                    </table>
             </p>
 
             <p><b>Q.6 What is a Button group, and what is the class for a basic Button Group?</b></p>
-            <p>Ans. </p>
+            <p>Ans. <q>Button Groups</q> in Bootstrap is a class of name <q>btn-group</q> which is used to create a series of buttons in groups (without spaces) vertically or horizontally.
+                Syntax: This is the basic syntax of the button group class where each button has its own class of “btn”.
+
+                <div class="btn-group">
+                    <button type="button" class="btn">Click</button>
+                </div>
+            </p>
 
             <p><b>Q.7 How can you use Bootstarp to make Thumbnails?</b></p>
             <p>Ans. </p>
