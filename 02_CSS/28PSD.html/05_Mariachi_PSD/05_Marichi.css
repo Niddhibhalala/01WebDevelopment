@@ -11,11 +11,11 @@
     src: url(./imges_font/Font/Roboto-Medium.ttf);
 }
 
-ul li a {
+.navbar ul li a {
     text-decoration: none;
     list-style: none;
     color: #ffd7ad;
-    font-size: 15px;
+    font-size: 2.5rem;
     font-weight: 300;
     font-family: "Roboto";
 }
@@ -51,16 +51,14 @@ ul li a {
 .navbar {
     text-align: center;
 }
-html{
-    font-size: 50%;
-}
+
 .navbar ul li {
-    font-size: 1rem;
+    font-size: 20px;
     color: #ffd7ad;
     font-weight: 400;
     font-family: "montserrat";
     display: inline-block;
-    padding: 10px;
+    padding: 5px 10px;
     margin: 0 auto;
 }
 
@@ -72,8 +70,8 @@ html{
     width: 20%;
 }
 
-.logo1 h3 {
-    font-size: 125px;
+.logo1 h1 {
+    font-size: 9rem;
     color: #ffd7ad;
     font-weight: 500;
     font-family: "Roboto";
@@ -81,7 +79,7 @@ html{
 
 .logo1 p {
     width: 80%;
-    font-size: 25px;
+    font-size: 2rem;
     color: #ffd7ad;
     font-weight: 70;
     font-family: "Roboto";
@@ -90,7 +88,7 @@ html{
 button {
     border: none;
     outline: none;
-    border-radius: 33px;
+    border-radius: 2rem;
     background-color: #ffd7ad;
     padding: 10px 30px;
     margin: 30px 0;
@@ -196,7 +194,7 @@ button {
 }
 
 .image4 img {
-    display:block;
+    display: block;
     width: 90%;
     padding: 0 50px;
     margin: 0 60px;
@@ -336,52 +334,58 @@ button {
 .btn button {
     background-color: #4a1831;
     color: aliceblue;
-    font-size: 15px;
+    font-size: 1rem;
     text-transform: uppercase;
     color: #ffffff;
     font-weight: 400;
     font-family: "Roboto";
-    margin-left: -62px;
+    margin-left: -4rem;
 }
 
 .sec7 {
     background-color: #4a1831;
-    color: #ffd7ad;
-    padding: 30px 0;
+    padding: 2rem 0;
 }
 
 .sec7 ul li {
     border-radius: 2rem;
-    margin: 5px;
-    padding: 3px;
+    margin: 0.5rem;
+    padding: 0.5rem;
     display: inline-block;
 }
 
-.faceb ul li i {
+.faceb li i{
+    background-color: #ffd7ad;
+    color: #4a1831;
+    border-radius:3rem;
     list-style: none;
-    padding: 5px 10px;
+    padding: 1rem 1rem;
+    font-size: 3rem;
 }
 
 .fhadding {
-    font-size: 1rem;
-    font-weight: 200;
-    font-family: "Roboto";
+    background-color: #4a1831;
+    color: #ffd7ad;
     font-family: "Roboto";
 }
 
+
 .fhadding h4 {
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: 300;
-    padding: 20px 5px;
+    padding: 1rem 0.5rem;
 }
 
 .fhadding p {
     width: 70%;
-    padding: 10px 5px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 1rem 0.5rem;
 }
 
 .fhadding ol li {
-    padding: 5px;
+    font-size: 1.5rem;
+    padding: 0.5rem;
 }
 
 .container {
@@ -414,16 +418,18 @@ button {
         width: 525px;
     }
 
-    .col15{
-        width:50%;
+    .col15 {
+        width: 50%;
     }
+
     .col35,
     .col50,
     .col100 {
         width: 100%;
     }
-    html{
-        font-size:50%;
+
+    html {
+        font-size: 50%;
 
     }
 }
