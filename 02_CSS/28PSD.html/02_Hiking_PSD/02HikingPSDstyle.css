@@ -39,18 +39,15 @@
 
 .navbar ul li {
     display: inline-block;
-    font-size: 19px;
-    font-weight: 500;
     font-family: "Opensans";
     padding: 10px;
 }
 
 .navbar ul li a {
     color: #54524f;
-    font-size: 15px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
+    font-size: 1rem;
     font-weight: 500;
+    text-transform: uppercase;
     font-family: "Opensans";
 }
 
@@ -82,8 +79,8 @@
     height: 800px;
 }
 
-.sec1-text1 {
-    font-size: 50px;
+.sec1-text1  {
+    font-size: 3rem;
     width: 40%;
     margin: 40px 25px 0 0;
     color: #deb37e;
@@ -100,7 +97,7 @@
 .sec1-text1 button {
     display: flex;
     border: none;
-    font-size: 15px;
+    font-size: 1rem;
     color: #776c64;
     font-weight: 600;
     font-family: "Opensans";
@@ -109,7 +106,7 @@
 }
 
 .sec1-text1 h5 {
-    font-size: 15px;
+    font-size: 1rem;
     letter-spacing: 5px;
     color: #54524f;
     font-weight: 250;
@@ -122,7 +119,7 @@
 .bodytext_1 {
     width: 500px;
     height: 100px;
-    font-size: 16px;
+    font-size: 1rem;
     letter-spacing: 1px;
     text-transform: lowercase;
     color: #54524f;
@@ -162,7 +159,7 @@
 
 .sec2-txt h3 {
     text-align: center;
-    font-size: 63px;
+    font-size: 4rem;
     text-transform: uppercase;
     color: #e2a355;
     font-weight: 800;

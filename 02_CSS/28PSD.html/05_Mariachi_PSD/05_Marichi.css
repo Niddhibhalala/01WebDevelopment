@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
+    font-family: "Roboto";
     list-style: none;
 }
 
@@ -10,20 +10,17 @@
     font-family: "Roboto";
     src: url(./imges_font/Font/Roboto-Medium.ttf);
 }
-.navbar ul li a {
-    text-decoration: none;
-    list-style: none;
-    color: #ffd7ad;
-    font-size: 2.5rem;
-    font-weight: 300;
-    font-family: "Roboto";
-}
 
 .row {
     display: flex;
     flex-wrap: wrap;
 }
-
+.posab {
+    position: absolute;
+}
+.posrel{
+    position: relative;
+}
 .align {
     align-items: center;
     margin: 0 auto;
@@ -31,6 +28,34 @@
 
 .jst {
     justify-content: space-between;
+}
+
+.heading {
+    font-size: 4rem;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+}
+
+.navbar {
+    background-color: brown;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: #ffd7ad;
+    font-size: 2rem;
+    font-weight: 300;
 }
 
 .header {
@@ -43,26 +68,8 @@
     padding: 50px 0;
 }
 
-.line {
-    background-color: brown;
-}
-
-.navbar {
-    text-align: center;
-}
-
-.navbar ul li {
-    font-size: 20px;
+.logo1 {
     color: #ffd7ad;
-    font-weight: 400;
-    font-family: "montserrat";
-    display: inline-block;
-    padding: 5px 10px;
-    margin: 0 auto;
-}
-
-.headerbg {
-    margin: 20px 0;
 }
 
 .logo1 img {
@@ -71,17 +78,13 @@
 
 .logo1 h1 {
     font-size: 9rem;
-    color: #ffd7ad;
     font-weight: 500;
-    font-family: "Roboto";
 }
 
 .logo1 p {
     width: 80%;
     font-size: 2rem;
-    color: #ffd7ad;
     font-weight: 70;
-    font-family: "Roboto";
 }
 
 button {
@@ -97,33 +100,25 @@ button {
     text-transform: uppercase;
     color: #4a1831;
     font-weight: 600;
-    font-family: "Roboto";
 }
 
 .sec1 {
     background-color: #ffd7ad;
-    padding: 20px 20px;
+    color: #4a1831;
     text-align: center;
+    padding: 30px 0;
 }
 
-.sec1 h4 {
-    text-align: center;
-    font-size: 50px;
-    color: #4a1831;
-    font-weight: 500;
-    font-family: "Roboto";
+.sec1 h5 {
     padding: 10px 0;
 }
 
 .sec1 p {
-    width: 70%;
-    text-align: center;
+    width: 50%;
     margin: 0 auto;
-    font-size: 20px;
-    color: #4a1831;
+    font-size: 2rem;
     font-weight: 300;
-    font-family: "Roboto";
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .sec1 button {
@@ -134,48 +129,38 @@ button {
     text-transform: uppercase;
     color: #ffd7ad;
     font-weight: 600;
-    font-family: "Roboto";
 }
 
 .img2 {
-    background-color: #ffd7ad;
-    width: 100%;
     display: block;
+    width: 100%;
 }
 
 .sec2 {
     background-color: #ffd7ad;
+    color: #4a1831;
     padding: 30px 0;
-    align-items: center;
 }
 
-.img3 {
-    width: 80%;
-    margin: 20px;
+.img3 img{
+    width: 90%;
 }
 
 .aboutMarichi {
-    width: 90%;
-    align-items: center;
-    justify-content: center;
+    text-align: justify;
+    color: #4a1831;
 }
 
 .aboutMarichi h5 {
-    margin: 40px 0 20px 0;
-    padding: 40px 0 0 0;
-    font-size: 40px;
-    color: #4a1831;
-    font-weight: 400;
-    font-family: "Roboto";
+    letter-spacing: 0.3rem;
+    margin: 20px 0;
 }
 
 .aboutMarichi p {
-    width: 80%;
+    width:90%;
     text-align: justify;
-    font-size: 20px;
-    color: #4a1831;
+    font-size: 2rem;
     font-weight: 100;
-    font-family: "Roboto";
 }
 
 .aboutMarichi button {
@@ -183,15 +168,9 @@ button {
     background-color: #4a1831;
 }
 
-.sec2,
-.sec3 {
-    overflow: hidden;
-}
-
 .sec3 {
     background-color: #ffd7ad;
 }
-
 .image4 img {
     display: block;
     width: 90%;
@@ -199,56 +178,42 @@ button {
     margin: 0 60px;
 }
 
-.posab {
-    position: absolute;
+.image4{
+    font-weight: 800;
+    text-transform: uppercase;
 }
 
 .image4 h3 {
-    font-size: 100px;
-    text-transform: uppercase;
+    font-size: 10rem;
     color: #e63956;
-    font-weight: 800;
-    font-family: "Roboto";
 }
 
 .image4 h5 {
-    font-size: 50px;
-    text-transform: uppercase;
+    font-size: 5rem;
     color: #55112e;
-    font-weight: 800;
-    font-family: "Roboto";
 }
 
 .image4 h4 {
-    font-size: 80px;
-    text-transform: uppercase;
+    font-size: 8.5rem;
     color: #6cc5ac;
-    font-weight: 800;
-    font-family: "Roboto";
 }
 
 .sec4 {
     background-color: #4a1831;
-    padding: 40px 30px;
+    padding: 40px 0;
 }
 
-.seeoffer h4 {
-    font-size: 50px;
+.seeoffer h5 {
     color: #ffd7ad;
-    font-weight: 500;
-    font-family: "Roboto";
     padding: 20px 0;
-    margin-top: 30px;
 }
 
 .seeoffer p {
     width: 80%;
-    font-size: 20px;
     color: #ffd7ad;
+    font-size: 2rem;
     font-weight: 100;
-    font-family: "Roboto";
-    margin-right: 20px;
-}
+}   
 
 .img5 img {
     width: 90%;
@@ -258,34 +223,27 @@ button {
     background-image: url(./imges_font/img6.png);
     background-size: cover;
     background-position: center;
-    align-items: center;
 }
-
-.log2 {
+.log2 img{
     width: 20%;
     display: block;
     margin: 0 auto;
     padding: 20px;
 }
-
-.pedro p {
-    width: 80%;
-    text-align: center;
-    margin: 0 auto;
-    font-size: 30px;
+.pedro{
     color: #ffd7ad;
-    font-weight: 300;
-    font-family: "Roboto";
     text-align: center;
+    font-size: 2.5rem;
+}
+.pedro p {
+    width: 70%;
+    margin:0 auto;
+    font-weight: 100;
     padding: 20px 0;
 }
 
 .pedro h5 {
-    font-size: 30px;
-    color: #ffd7ad;
-    font-weight: 500;
-    font-family: "Roboto";
-    text-align: center;
+    font-weight: 300;
     padding: 20px 0;
 }
 
@@ -293,28 +251,20 @@ button {
     background-color: #ffd7ad;
     padding: 40px 0;
 }
-
-.Latestoffer h4 {
-    font-size: 50px;
+.Latestoffer{
     color: #4a1831;
-    font-weight: 500;
-    font-family: "Roboto";
     text-align: center;
+}
+
+.Latestoffer h5 {
     padding: 30px 0;
 }
 
 .Latestoffer p {
-    width: 80%;
-    text-align: center;
+    width: 60%;
     margin: 0 auto;
-    font-size: 20px;
-    color: #4a1831;
+    font-size: 2rem;
     font-weight: 100;
-    font-family: "Roboto";
-}
-
-.Latestoffer {
-    text-align: center;
 }
 
 .btn {
@@ -322,23 +272,21 @@ button {
 }
 
 .btn input {
-    border-radius: 33px;
-    font-size: 15px;
     border: none;
     outline: none;
-    padding: 10px 10px;
+    border-radius: 32px;
+    font-size: 1.5rem;
+    padding: 10px;
     width: 30%;
 }
 
 .btn button {
     background-color: #4a1831;
     color: aliceblue;
-    font-size: 1rem;
+    font-size: 1.5rem;
+    font-weight: 300;
     text-transform: uppercase;
-    color: #ffffff;
-    font-weight: 400;
-    font-family: "Roboto";
-    margin-left: -4rem;
+    margin-left: -24px;
 }
 
 .sec7 {
@@ -347,78 +295,54 @@ button {
 }
 
 .sec7 ul li {
+    display: inline-block;
     border-radius: 2rem;
     margin: 0.5rem;
     padding: 0.5rem;
-    display: inline-block;
 }
 
-.faceb li i{
+.faceb li i {
     background-color: #ffd7ad;
     color: #4a1831;
-    border-radius:3rem;
-    list-style: none;
-    padding: 1rem 1rem;
-    font-size: 3rem;
+    padding: 5px ;
+    border-radius: 50px;
+    font-size: 2rem;
 }
 
 .fhadding {
     background-color: #4a1831;
     color: #ffd7ad;
-    font-family: "Roboto";
 }
 
-
-.fhadding h4 {
+.fhadding h6 {
     font-size: 2rem;
     font-weight: 300;
-    padding: 1rem 0.5rem;
+    padding: 10px 0;
 }
 
 .fhadding p {
     width: 70%;
     font-size: 1.5rem;
-    font-weight: 400;
-    padding: 1rem 0.5rem;
+    font-weight: 200;
+    padding: 10px 0;
 }
 
 .fhadding ol li {
     font-size: 1.5rem;
-    padding: 0.5rem;
+    padding: 5px 0;
 }
 
-.container {
-    /* width: 1160px; */
-    width: 100%;
-    margin: 0 auto;
-}
-
-.col100 {
-    width: 100%;
-}
-
-.col50 {
-    /* width: 50%; */
-    width: 100%;
-}
-
-.col35 {
-    /* width: 35%; */
-    width: 100%;
-}
-
-.col15 {
-    /* width: 15%; */
-    width: 100%;
-}
 
 @media(min-width:567px) {
     .container {
         width: 525px;
+        margin: 0 auto;
     }
 
     .col15 {
         width: 50%;
+        margin: 0 auto;
+
     }
 
     .col35,
@@ -477,9 +401,30 @@ button {
     }
 }
 
-@media (min-width:1200px) {
+@media(min-width:1200px)  {
     .container {
         width: 1160px;
+        margin:0 auto;
+    }  
+    
+    .col100 {
+        width: 100%;
     }
-
+    
+    .col50 {
+        width: 100%;
+    }
+    
+    .col35 {
+        width: 100%;
+    }
+    
+    .col15 {
+        width: 100%;
+    }
+    
 }
+.container {
+    width: 1160px;
+    margin:0 auto;
+}  
