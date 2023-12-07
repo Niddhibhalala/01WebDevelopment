@@ -228,12 +228,11 @@ ol li {
     z-index:2;
 }
 
-.sec1-2 {
+.Sec2-3_1-2  {
     z-index: 0;
-    top:-120px;
+    bottom:-50px;
 }
-
-.sec1-2 img {
+.Sec2-3_1-2  img {
     width: 100%;
 }
 
@@ -258,4 +257,8 @@ ol li {
     font-weight: 300;
     color: #ffffff;
     font-family: "Montserrat";
+}
+.Hotcoffee{
+    font-family:"Grandhotel";
+    font-size:
 }

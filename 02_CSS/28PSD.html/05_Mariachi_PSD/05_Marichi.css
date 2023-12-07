@@ -29,7 +29,9 @@
 .jst {
     justify-content: space-between;
 }
-
+.m-auto{
+    margin:0 auto;
+}
 .heading {
     font-size: 4rem;
     letter-spacing: 0.1rem;
@@ -41,6 +43,7 @@
     text-align: center;
     text-decoration: none;
     list-style: none;
+    
 }
 
 .navbar ul li {
@@ -143,11 +146,13 @@ button {
 }
 
 .img3 img{
-    width: 90%;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
 }
 
 .aboutMarichi {
-    text-align: justify;
     color: #4a1831;
 }
 
@@ -157,8 +162,7 @@ button {
 }
 
 .aboutMarichi p {
-    width:90%;
-    text-align: justify;
+    width:60%;
     font-size: 2rem;
     font-weight: 100;
 }
@@ -341,12 +345,21 @@ button {
 
     .col15 {
         width: 50%;
-        margin: 0 auto;
 
     }
-
-    .col35,
-    .col50,
+    .aboutMarichi{
+        text-align: center;
+    }
+    .aboutMarichi p{
+        width: 100%;
+    }
+    
+    .col35{
+        width:100%;
+    }
+    .col50{
+        width:100%;
+    }
     .col100 {
         width: 100%;
     }
@@ -355,6 +368,12 @@ button {
         font-size: 50%;
 
     }
+    .img3{
+        width: 100%;
+        text-align: center;
+    }
+
+    
 }
 
 @media(min-width:762px) {
@@ -424,7 +443,3 @@ button {
     }
     
 }
-.container {
-    width: 1160px;
-    margin:0 auto;
-}  

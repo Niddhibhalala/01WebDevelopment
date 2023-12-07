@@ -1,3 +1,7 @@
+*{
+  border:1px solid red
+}
+
 .row{
   display: flex;
   flex-wrap: wrap;
@@ -15,7 +19,7 @@
 
 .carousel{
   background-color: black;
-  opacity:90%;
+  opacity:100%;
   position:relative;
   overflow-x: hidden;
 }
@@ -24,7 +28,7 @@
   margin:20px;
   font-size: 3rem;
   width:60%;
-  text-align: center;
+  /* text-align: center; */
 }
 .carousel p{
   color:#fff;
@@ -34,7 +38,7 @@
   align-items: center;
   margin:0 auto;
 }
-.btn{
+.btn:before{
   background-color: #0354cc;
   color:#fff;
   padding:10px 20px;
@@ -81,5 +85,12 @@
   padding:10px;
 }
 .i:hover{
-  top:10px;
+  top:30px;
+}
+.Mollitia{
+  width:40%;
+  font-size: 1rem;
+}
+.img4 img{
+  Width:30%;
 }
