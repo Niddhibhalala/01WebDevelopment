@@ -162,7 +162,7 @@ button {
 }
 
 .aboutMarichi p {
-    width:60%;
+    width:80%;
     font-size: 2rem;
     font-weight: 100;
 }
@@ -265,7 +265,7 @@ button {
 }
 
 .Latestoffer p {
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
     font-size: 2rem;
     font-weight: 100;
@@ -336,6 +336,11 @@ button {
     padding: 5px 0;
 }
 
+.img3{
+    width: 100%;
+    text-align: center;
+}
+
 
 @media(min-width:567px) {
     .container {
@@ -344,15 +349,15 @@ button {
     }
 
     .col15 {
-        width: 50%;
-
+        width: 15%;
     }
+    /* }
     .aboutMarichi{
         text-align: center;
     }
     .aboutMarichi p{
         width: 100%;
-    }
+    } */
     
     .col35{
         width:100%;
@@ -368,10 +373,7 @@ button {
         font-size: 50%;
 
     }
-    .img3{
-        width: 100%;
-        text-align: center;
-    }
+   
 
     
 }
@@ -418,6 +420,11 @@ button {
     .col15 {
         width: 15%;
     }
+
+    .img3{
+        /* width: 90%; */
+        text-align: left;
+    }
 }
 
 @media(min-width:1200px)  {
@@ -431,15 +438,15 @@ button {
     }
     
     .col50 {
-        width: 100%;
+        width: 50%;
     }
     
     .col35 {
-        width: 100%;
+        width: 35%;
     }
     
     .col15 {
-        width: 100%;
+        width: 15%;
     }
     
 }
