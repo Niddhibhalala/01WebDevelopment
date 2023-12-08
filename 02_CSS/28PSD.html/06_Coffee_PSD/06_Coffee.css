@@ -16,7 +16,7 @@
 }
 
 .container {
-    width: 1200px;
+    width: 1160px;
     margin: 0 auto;
 }
 
@@ -31,6 +31,10 @@
 
 .jst {
     justify-content: space-between;
+}
+
+.justify {
+    justify-content: center;
 }
 
 .posab {
@@ -218,6 +222,7 @@ ol li {
     bottom: 143px;
     right: 50px;
 }
+
 .lorem {
     font-size: 1rem;
     font-weight: 300;
@@ -225,40 +230,55 @@ ol li {
     text-align: right;
     padding: 40px;
     letter-spacing: 2px;
-    z-index:2;
+    z-index: 2;
 }
 
-.Sec2-3_1-2  {
+.Sec2-3_1-2 {
     z-index: 0;
-    bottom:-50px;
+    bottom: -50px;
 }
-.Sec2-3_1-2  img {
+
+.Sec2-3_1-2 img {
     width: 100%;
 }
 
 .sec2,
 .sec3 {
-    position:relative;
+    position: relative;
     z-index: -1;
 }
 
 .sec3 {
     background-color: black;
 }
-.img2{
-    margin:50px 0;
+
+.img2 {
+    margin: 50px 0;
 }
+
 .img2 img {
     width: 70%;
 }
-.img2 p{
-    width:70%;
+
+.img2 p {
+    width: 70%;
     font-size: 15px;
     font-weight: 300;
     color: #ffffff;
     font-family: "Montserrat";
 }
-.Hotcoffee{
-    font-family:"Grandhotel";
-    font-size:
+
+.Hotcoffee {
+    font-family: "Grandhotel";
+    color: #ffffff;
+    font-size: 5rem;
+    font-weight: 400;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sec3 .btn {
+    align-items: center;
+    justify-content: center;
 }

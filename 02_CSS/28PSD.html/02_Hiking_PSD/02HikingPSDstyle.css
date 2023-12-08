@@ -239,11 +239,7 @@
     width: 50%;
 }
 
-.picdata {
-    display: flex;
-}
-
-.pic1 img {
+.img-1 img {
     width: 100%;
 }
 
@@ -431,21 +427,23 @@ img.shadow1{
 
 .sec8 {
     background-color: #deb37e;
+    font-family: "Opensans";
+    text-align: center;
 }
 
 .shap01,
-.shape02 img {
+.shap02 img {
+    display:block;
     width: 100%;
-    margin: 0 auto;
 }
+
+
 
 .sec8 h3 {
     padding-top: 90px;
     font-size: 70px;
     color: #ffffff;
     font-weight: 600;
-    font-family: "Opensans";
-    text-align: center;
 }
 
 .sec8 p {
@@ -454,10 +452,13 @@ img.shadow1{
     font-size: 20px;
     color: #54524f;
     font-weight: 300;
-    font-family: "Opensans";
-    text-align: center;
 }
-
+.Shap02 img{
+    animation:
+}
+.Shap02{
+    background-color: #e2a355;
+}
 .text {
     text-align: center;
     padding: 40px 0;

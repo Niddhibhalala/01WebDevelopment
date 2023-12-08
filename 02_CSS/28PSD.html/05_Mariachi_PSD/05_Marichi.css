@@ -15,12 +15,15 @@
     display: flex;
     flex-wrap: wrap;
 }
+
 .posab {
     position: absolute;
 }
-.posrel{
+
+.posrel {
     position: relative;
 }
+
 .align {
     align-items: center;
     margin: 0 auto;
@@ -29,9 +32,11 @@
 .jst {
     justify-content: space-between;
 }
-.m-auto{
-    margin:0 auto;
+
+.m-auto {
+    margin: 0 auto;
 }
+
 .heading {
     font-size: 4rem;
     letter-spacing: 0.1rem;
@@ -43,13 +48,12 @@
     text-align: center;
     text-decoration: none;
     list-style: none;
-    
 }
 
 .navbar ul li {
     display: inline-block;
     margin: 0 auto;
-    padding: 5px 10px;
+    padding: 20px 15px;
     text-align: center;
 }
 
@@ -59,6 +63,12 @@
     color: #ffd7ad;
     font-size: 2rem;
     font-weight: 300;
+}
+
+.navbar ul li a:hover {
+    background-color: #ffd7ad;
+    color: brown;
+    border-radius: 5px;
 }
 
 .header {
@@ -77,6 +87,11 @@
 
 .logo1 img {
     width: 20%;
+}
+
+.img3 animate {
+    overflow: hidden;
+    transition: max-height 400ms ease-out;/
 }
 
 .logo1 h1 {
@@ -103,6 +118,12 @@ button {
     text-transform: uppercase;
     color: #4a1831;
     font-weight: 600;
+}
+
+.written:hover {
+    background-color: #55112e;
+    color: #ffd7ad;
+
 }
 
 .sec1 {
@@ -145,15 +166,11 @@ button {
     padding: 30px 0;
 }
 
-.img3 img{
+.img3 img {
     width: 60%;
     margin: 0 auto;
     text-align: center;
     justify-content: center;
-}
-
-.aboutMarichi {
-    color: #4a1831;
 }
 
 .aboutMarichi h5 {
@@ -162,7 +179,7 @@ button {
 }
 
 .aboutMarichi p {
-    width:80%;
+    width: 80%;
     font-size: 2rem;
     font-weight: 100;
 }
@@ -172,9 +189,14 @@ button {
     background-color: #4a1831;
 }
 
+.img3 .element {
+    animation: 5s all ease-in-out infinite;
+}
+
 .sec3 {
     background-color: #ffd7ad;
 }
+
 .image4 img {
     display: block;
     width: 90%;
@@ -182,7 +204,7 @@ button {
     margin: 0 60px;
 }
 
-.image4{
+.image4 {
     font-weight: 800;
     text-transform: uppercase;
 }
@@ -217,7 +239,7 @@ button {
     color: #ffd7ad;
     font-size: 2rem;
     font-weight: 100;
-}   
+}
 
 .img5 img {
     width: 90%;
@@ -228,20 +250,23 @@ button {
     background-size: cover;
     background-position: center;
 }
-.log2 img{
+
+.log2 img {
     width: 20%;
     display: block;
     margin: 0 auto;
     padding: 20px;
 }
-.pedro{
+
+.pedro {
     color: #ffd7ad;
     text-align: center;
     font-size: 2.5rem;
 }
+
 .pedro p {
     width: 70%;
-    margin:0 auto;
+    margin: 0 auto;
     font-weight: 100;
     padding: 20px 0;
 }
@@ -255,7 +280,8 @@ button {
     background-color: #ffd7ad;
     padding: 40px 0;
 }
-.Latestoffer{
+
+.Latestoffer {
     color: #4a1831;
     text-align: center;
 }
@@ -308,7 +334,7 @@ button {
 .faceb li i {
     background-color: #ffd7ad;
     color: #4a1831;
-    padding: 5px ;
+    padding: 5px;
     border-radius: 50px;
     font-size: 2rem;
 }
@@ -336,7 +362,7 @@ button {
     padding: 5px 0;
 }
 
-.img3{
+.img3 {
     width: 100%;
     text-align: center;
 }
@@ -351,31 +377,31 @@ button {
     .col15 {
         width: 15%;
     }
-    /* }
-    .aboutMarichi{
-        text-align: center;
-    }
-    .aboutMarichi p{
+
+    .col35 {
         width: 100%;
-    } */
-    
-    .col35{
-        width:100%;
     }
-    .col50{
-        width:100%;
+
+    .col50 {
+        width: 100%;
     }
+
     .col100 {
         width: 100%;
     }
 
+    .aboutMarichi {
+        text-align: center;
+    }
+
+    .aboutMarichi p {
+        width: 90%;
+    }
+
     html {
         font-size: 50%;
-
     }
-   
 
-    
 }
 
 @media(min-width:762px) {
@@ -421,32 +447,30 @@ button {
         width: 15%;
     }
 
-    .img3{
-        /* width: 90%; */
+    .img3 {
         text-align: left;
     }
 }
 
-@media(min-width:1200px)  {
+@media(min-width:1200px) {
     .container {
         width: 1160px;
-        margin:0 auto;
-    }  
-    
+        margin: 0 auto;
+    }
+
     .col100 {
         width: 100%;
     }
-    
+
     .col50 {
         width: 50%;
     }
-    
+
     .col35 {
         width: 35%;
     }
-    
+
     .col15 {
         width: 15%;
     }
-    
 }
