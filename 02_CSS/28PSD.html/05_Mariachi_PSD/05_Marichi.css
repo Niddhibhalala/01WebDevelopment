@@ -10,7 +10,10 @@
     font-family: "Roboto";
     src: url(./imges_font/Font/Roboto-Medium.ttf);
 }
-
+.container{
+    /* width:1200px; */
+    margin:0 auto;
+}
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -123,7 +126,6 @@ button {
 .written:hover {
     background-color: #55112e;
     color: #ffd7ad;
-
 }
 
 .sec1 {
@@ -371,106 +373,102 @@ button {
 @media(min-width:567px) {
     .container {
         width: 525px;
-        margin: 0 auto;
     }
 
     .col15 {
-        width: 15%;
+        width: 30%;
     }
 
     .col35 {
-        width: 100%;
+        width: 80%;
     }
-
     .col50 {
         width: 100%;
     }
-
     .col100 {
         width: 100%;
     }
 
-    .aboutMarichi {
-        text-align: center;
-    }
-
-    .aboutMarichi p {
-        width: 90%;
-    }
-
-    html {
+    html { 
         font-size: 50%;
     }
-
+    .aboutMarichi,.seeoffer h5 {
+        text-align: center;
+    }
+    .seeoffer p{
+        text-align: center;
+    }
+    .written{
+        text-align: center;
+        justify-content: center;
+    }
 }
 
 @media(min-width:762px) {
     .container {
         width: 720px;
     }
-
+    .col15 {
+        width: 15%;
+    }  
+    .col35 {
+        width: 25%;
+    }
+    .col50 {
+        width: 50%;
+    }
     .col100 {
         width: 100%;
     }
 
-    .col50 {
-        width: 50%;
-    }
 
-    .col35 {
-        width: 25%;
-    }
 
-    .col15 {
-        width: 15%;
-    }
 }
 
 @media(min-width:992px) {
     .container {
         width: 950px;
     }
-
+    .col15 {
+        width: 15%;
+    }
+    .col35 {
+        width: 35%;
+    }
+    .col50 {
+        width: 50%;
+    }
     .col100 {
         width: 100%;
     }
 
-    .col50 {
-        width: 50%;
-    }
 
-    .col35 {
-        width: 35%;
-    }
-
-    .col15 {
-        width: 15%;
-    }
-
-    .img3 {
+    .aboutMarichi,.seeoffer h5 {
         text-align: left;
     }
+    .aboutMarichi P{
+        text-align: left;
+    }
+    .seeoffer p{
+        text-align: left;
+    }
+
 }
 
 @media(min-width:1200px) {
     .container {
         width: 1160px;
-        margin: 0 auto;
     }
-
-    .col100 {
-        width: 100%;
+    .col15 {
+        width: 15%;
     }
-
-    .col50 {
-        width: 50%;
-    }
-
     .col35 {
         width: 35%;
     }
-
-    .col15 {
-        width: 15%;
+    .col50 {
+        width: 50%;
+    }
+    .col100 {
+        width: 100%;
     }
 }
