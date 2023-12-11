@@ -10,10 +10,12 @@
     font-family: "Roboto";
     src: url(./imges_font/Font/Roboto-Medium.ttf);
 }
-.container{
+
+.container {
     /* width:1200px; */
-    margin:0 auto;
+    margin: 0 auto;
 }
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -382,41 +384,56 @@ button {
     .col35 {
         width: 80%;
     }
+
     .col50 {
         width: 100%;
     }
+
     .col100 {
         width: 100%;
     }
 
-    html { 
+    html {
         font-size: 50%;
     }
-    .aboutMarichi,.seeoffer h5 {
+
+    .aboutMarichi,
+    .seeoffer h5 {
         text-align: center;
     }
-    .seeoffer p{
+
+    .seeoffer p {
         text-align: center;
     }
-    .written{
+
+    .written {
+        text-align: center;
+    }
+    .see{
         text-align: center;
         justify-content: center;
+
     }
 }
+
 
 @media(min-width:762px) {
     .container {
         width: 720px;
     }
+
     .col15 {
         width: 15%;
-    }  
+    }
+
     .col35 {
         width: 25%;
     }
+
     .col50 {
         width: 50%;
     }
+
     .col100 {
         width: 100%;
     }
@@ -429,27 +446,34 @@ button {
     .container {
         width: 950px;
     }
+
     .col15 {
         width: 15%;
     }
+
     .col35 {
         width: 35%;
     }
+
     .col50 {
         width: 50%;
     }
+
     .col100 {
         width: 100%;
     }
 
 
-    .aboutMarichi,.seeoffer h5 {
+    .aboutMarichi,
+    .seeoffer h5 {
         text-align: left;
     }
-    .aboutMarichi P{
+
+    .aboutMarichi P {
         text-align: left;
     }
-    .seeoffer p{
+
+    .seeoffer p {
         text-align: left;
     }
 
@@ -459,15 +483,19 @@ button {
     .container {
         width: 1160px;
     }
+
     .col15 {
         width: 15%;
     }
+
     .col35 {
         width: 35%;
     }
+
     .col50 {
         width: 50%;
     }
+
     .col100 {
         width: 100%;
     }
