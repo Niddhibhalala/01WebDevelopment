@@ -1,14 +1,13 @@
-@font-face {
-    font-family: opensans;
-    src: url(./img_Font/Fonts-Open-sans/OpenSans-Medium.ttf);
-}
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+}
+@font-face {
+    font-family: "Opensans";
+    src: url(./img_Font/Fonts-Open-sans/OpenSans-Medium.ttf);
 }
 
 .row {
@@ -79,7 +78,7 @@
     height: 800px;
 }
 
-.sec1-text1  {
+.sec1-text1 {
     font-size: 3rem;
     width: 40%;
     margin: 40px 25px 0 0;
@@ -169,7 +168,7 @@
 
 .sec2-txt p {
     width: 1788px;
-    font-size: 20px;
+    font-size: 1.5rem;
     color: #7f7770;
     font-weight: 400;
     font-family: "Opensans";
@@ -192,7 +191,7 @@
 }
 
 .box1 h4 {
-    font-size: 20px;
+    font-size: 1.5rem;
     color: #ffffff;
     font-weight: 700;
     font-family: "Opensans";
@@ -200,7 +199,7 @@
 }
 
 .box1 p {
-    font-size: 18px;
+    font-size: 1rem;
     color: #ffffff;
     font-weight: 400;
     font-family: "Opensans";
@@ -213,7 +212,7 @@
 }
 
 .btn button {
-    font-size: 18px;
+    font-size: 1.2rem;
     letter-spacing: 5px;
     line-height: 21px;
     text-transform: uppercase;
@@ -251,7 +250,7 @@
 
 .databox h3 {
     padding: 150px 15px 20px 15px;
-    font-size: 50px;
+    font-size: 3.5rem;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -343,10 +342,12 @@
     margin: 0 auto;
     padding-bottom: 50px;
 }
-img.shadow1{
-    width:40%;
+
+img.shadow1 {
+    width: 40%;
     top: 30%;
 }
+
 .sec5 {
     background-image: url(./img_Font/img05.png);
     background-repeat: no-repeat;
@@ -433,12 +434,9 @@ img.shadow1{
 
 .shap01,
 .shap02 img {
-    display:block;
+    display: block;
     width: 100%;
 }
-
-
-
 .sec8 h3 {
     padding-top: 90px;
     font-size: 70px;
@@ -453,12 +451,11 @@ img.shadow1{
     color: #54524f;
     font-weight: 300;
 }
-.Shap02 img{
-    animation:
-}
-.Shap02{
+
+.Shap02 {
     background-color: #e2a355;
 }
+
 .text {
     text-align: center;
     padding: 40px 0;
