@@ -5,6 +5,7 @@
     list-style: none;
     text-decoration: none;
 }
+
 @font-face {
     font-family: "Opensans";
     src: url(./img_Font/Fonts-Open-sans/OpenSans-Medium.ttf);
@@ -66,6 +67,8 @@
     top: 3px;
     right: 10px;
 }
+
+/* sec1 start */
 
 .sec1-bg {
     /* background: linear-gradient(90deg, rgba(52, 52, 52, 0.046), rgb(67 64 55/0%)100%), url(../Hiking-PSD-Images/headerimg.png); */
@@ -144,6 +147,7 @@
     top: 20px;
     z-index: 1;
 }
+/* sec1 End */
 
 .sec1-2bg {
     transform: rotate(360turn);
@@ -151,6 +155,8 @@
     z-index: 2;
     bottom: -34px;
 }
+
+/* sec2 Start */
 
 .sec2 {
     margin: 50px 0 10px 0;
@@ -225,7 +231,9 @@
     border: none;
     margin: 5px;
 }
+/* sec2 End */
 
+/* sec3 Start */
 .sec3 {
     margin: 10px 0 10px 0;
 }
@@ -233,7 +241,6 @@
 .overflow {
     overflow: hidden;
 }
-
 .col-50 {
     width: 50%;
 }
@@ -258,20 +265,20 @@
 .databox h4 {
     width: 600px;
     height: 175px;
-    font-size: 20px;
+    font-size: 1.5rem;
     font-weight: 250;
     padding: 20px 15px;
 }
 
 .databox button {
-    font-size: 18px;
+    font-size: 1.2rem;
     letter-spacing: 5px;
     text-transform: uppercase;
     background-color: #e2a355;
     color: #ffffff;
     font-weight: 700;
     font-family: "Opensans";
-    border-radius: 3em;
+    border-radius: 3rem;
     border: none;
     padding: 10px 20px;
     margin: 15px 0 25px 15px;
@@ -286,7 +293,7 @@
 
 .databox01 h3 {
     padding: 150px 15px 20px 15px;
-    font-size: 50px;
+    font-size: 3.5rem;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -311,9 +318,9 @@
     border: none;
     padding: 10px 20px;
     margin: 15px 0 50px 15px;
-
 }
-
+/* sec3 End */
+/* sec4 start */
 .sec4 img {
     width: 100%;
     margin: 0 auto;
@@ -347,7 +354,9 @@ img.shadow1 {
     width: 40%;
     top: 30%;
 }
+/* sec 4 End */
 
+/* sec5 start */
 .sec5 {
     background-image: url(./img_Font/img05.png);
     background-repeat: no-repeat;
@@ -380,7 +389,9 @@ img.shadow1 {
     font-size: 76px;
     color: black;
 }
+/* sec5 End */
 
+/* sec6 Start */
 .col-25 {
     width: 25%;
     align-items: center;
@@ -399,6 +410,9 @@ img.shadow1 {
     /* font-weight: 500; */
     font-family: "Opensans";
 }
+/* sec6 End */
+
+/* sec7 start */
 
 .sec7 {
     margin: 50px;
@@ -425,11 +439,14 @@ img.shadow1 {
     font-family: "Opensans";
     text-align: center;
 }
+/* sec7 End */
 
+/* sec8 start */
 .sec8 {
     background-color: #deb37e;
     font-family: "Opensans";
     text-align: center;
+    padding: 3rem 0;
 }
 
 .shap01,
@@ -437,6 +454,7 @@ img.shadow1 {
     display: block;
     width: 100%;
 }
+
 .sec8 h3 {
     padding-top: 90px;
     font-size: 70px;
@@ -456,7 +474,7 @@ img.shadow1 {
     background-color: #e2a355;
 }
 
-.text {
+input {
     text-align: center;
     padding: 40px 0;
 }
@@ -484,7 +502,24 @@ img.shadow1 {
     text-align: center;
     padding: 5px;
 }
-
+/* sec8 End */
+/* mergeimg start */
+.sec8 {
+    z-index: -1
+}
+.Mergeimg {
+    z-index: 1;
+}
+.Mergeimg.img{
+    width:1200px;
+}
+.sec9 {
+    position: relative;
+    z-index: 0;
+    top: 9rem;
+}
+/* mergeimg End */
+/* sec9 start */
 .sec9 {
     background-color: #776c64;
     margin: 0 auto;
@@ -529,3 +564,5 @@ img.shadow1 {
     align-items: center;
     justify-content: center;
 }
+
+/* sec9 End */

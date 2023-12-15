@@ -14,31 +14,31 @@
 <body>
 
     <header class="header">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col100 ">
-                    <div class="navbar align slide">
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Menu</a></li>
-                            <li><a href="#">Offers</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </div>
+        <div class="menu"><i class="fa-solid fa-2x fa-bars"></i></div>
+
+        <div class="row">
+            <div class="col100 ">
+                <div class="navbar align slide">
+                    <ul class="nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Offers</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
                 </div>
             </div>
+        </div>
 
-            <div class="container">
-                <div class="row">
-                    <div class="col50 padding">
-                        <div class="logo1 align jst">
-                            <img src="./imges_font/logo1.png" alt="">
-                            <h1>Marichi</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione molestiae nulla quia
-                                odittotam commodi magnam, accusantium ad maiores voluptatibus!</p>
-                            <button class="written">Order Now</button>
-                        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col50 padding">
+                    <div class="logo1 align jst">
+                        <img src="./imges_font/logo1.png" alt="">
+                        <h1>Marichi</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione molestiae nulla quia
+                            odittotam commodi magnam, accusantium ad maiores voluptatibus!</p>
+                        <button class="written">Order Now</button>
                     </div>
                 </div>
             </div>
@@ -83,7 +83,7 @@
     </section>
 
 
-    <section class="sec3 posrel ">
+    <section class="sec3  posrel">
         <div class="container">
             <div class="row">
                 <div class="col100">
@@ -192,11 +192,32 @@
                         <li>Help</li>
                     </ol>
                 </div>
-
             </div>
         </div>
-
     </footer>
+
+
+    <script>
+        const bar = document.querySelector(".menu")
+        const navbar = document.querySelector(".navbar")
+        const navbarli = document.querySelector(".navbar li")
+
+        bar.addEventListener("click", () => {
+            bar.classList.toggle("active");
+            navbar.classList.toggle("active");
+        });
+
+        let btn = document.querySelector(".menu")
+        let icon = btn.querySelector(".fa-bars")
+        btn.onclick = function () {
+            if (icon.classList.contains("fa-bars")) {
+                icon.classList.replace("fa-bars", "fa-times");
+
+            } else {
+                icon.classList.replace("fa-times", "fa-bars")
+            }
+        }
+    </script>
 </body>
 
 </html>
