@@ -104,6 +104,7 @@
             <!-- Phone number input -->
             <input type="tel" name="tel" id="tel" placeholder="Enter phone number (up to 10 digits)" maxlength="10"
                 oninput="this.value = this.value.replace(/[^0-9]/g, '');">
+
             <br>
             <!-- Submit button -->
             <button type="submit">Login</button>
@@ -125,7 +126,7 @@
 
             // Check if username is empty
             if (username.trim() === "") {
-                errorMessage.textContent = "Username is required.";
+               alert( errorMessage.textContent = "Username is required.");
                 return false;
             }
 
@@ -171,10 +172,15 @@
 
             // Additional email validation
             var email = document.getElementById("email").value;
-            if (!isValidEmail(email)) {
-                errorMessage.textContent = "Invalid email format.";
-                return false;
+            functionmyFunction(){
+            if (!isValidEmail(email)) 
+                alert(errorMessage.textContent = "Invalid email format.");
+                // return false;
             }
+
+            function myFunction() {
+            alert("i am an alert box!");
+        }
 
             // If all validations pass, allow form submission
             return alert("congratulation");
@@ -185,6 +191,7 @@
             var emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
             return emailRegex.test(email);
         }
+        // var tel=/^\d{10}$/;
 
     </script>
 </body>

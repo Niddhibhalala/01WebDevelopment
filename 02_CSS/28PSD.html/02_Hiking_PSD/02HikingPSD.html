@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -103,10 +104,10 @@
     <section class="sec3">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-50 img-1">
-                    <img src="./img_Font/pic1.png" alt="">
+                <div class="col-50 img-1 " >
+                    <img data-aos="fade-right" src="./img_Font/pic1.png" alt="">
                 </div>
-                <div class="col-50 databox ">
+                <div class="col-50 databox " data-aos="fade-left">
                     <h3>discount upto 50% all excursions</h3>
                     <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
                         tincidunt ut laoreet dolore magna aliquam erat volutpat.</h4>
@@ -282,7 +283,12 @@
             </div>
         </div>
     </Footer>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 3000,
+        });
+    </script>
 </body>
 
 </html>
