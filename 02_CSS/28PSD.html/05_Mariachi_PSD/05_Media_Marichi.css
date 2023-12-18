@@ -1,0 +1,230 @@
+/* Media Query (min-width) 567px strat */
+@media(min-width:567px) {
+    .container {
+        width: 525px;
+    }
+
+    .col15,
+    .col25,
+    .col35,
+    .col50,
+    .col100 {
+        width: 100%;
+    }
+
+    .col15,
+    .col35 {
+        text-align: center;
+    }
+
+    html {
+        font-size: 50%;
+    }
+
+    .logo1 {
+        text-align: center;
+    }
+
+    .logo1 img,
+    .logo1 p,
+    .aboutMarichi,
+    .aboutMarichi p,
+    .seeoffer,
+    .seeoffer h5,
+    .seeoffer p,
+    .fhadding p {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .logo1 p {
+        max-width: 90%;
+    }
+
+    .img5 img,
+    .img3 img {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+}
+/* Media Query (min-width) 567px End */
+
+/* Media Query (min-width) 762px strat */
+@media(min-width:762px) {
+    .container {
+        width: 720px;
+    }
+
+    .col15,
+    .col25 {
+        width: 45%;
+    }
+
+    .col35,
+    .col50,
+    .col100 {
+        width: 100%;
+    }
+
+    .logo1 h1 {
+        font-size: 9.5rem;
+    }
+
+    .aboutMarichi p,
+    .seeoffer p,
+    .Latestoffer p {
+        width: 70%;
+    }
+
+    .img3 img,
+    .img5 img {
+        width: 70%;
+    }
+
+    .logo1 p,
+    .sec1 p,
+    .aboutMarichi p,
+    .seeoffer p,
+    .Latestoffer p {
+        font-size: 2.5rem;
+    }
+
+    .heading {
+        font-size: 4.4rem;
+    }
+
+    .fhadding h6 {
+        font-size: 3.2rem;
+    }
+
+    .fhadding p,
+    .fhadding ol li {
+        font-size: 1.9rem;
+    }
+}
+/* Media Query (min-width) 762px End */
+
+/* Media Query (min-width) 992px Strat */
+
+@media(min-width:992px) {
+    .container {
+        width: 950px;
+    }
+
+    .col15 {
+        width: 15%;
+    }
+
+    .col25 {
+        width: 25%;
+    }
+
+    .col35 {
+        width: 35%;
+        text-align: left;
+    }
+
+    .col50 {
+        width: 50%;
+    }
+
+    .col100 {
+        width: 100%;
+    }
+
+
+    .logo1 h1 {
+        font-size: 9rem;
+    }
+
+    .navbar {
+        width: unset;
+        position: static;
+    }
+
+    .navbar ul li {
+        display: inline-block;
+    }
+
+
+    .logo1,
+    .logo1 h1,
+    .logo1 p,
+    .aboutMarichi,
+    .aboutMarichi P,
+    .seeoffer,
+    .seeoffer p,
+    .seeoffer h5,
+    .fhadding p {
+        text-align: left;
+    }
+
+    .logo1 p,
+    .aboutMarichi p,
+    .seeoffer p,
+    .fhadding p {
+        width: 70%;
+        margin-left: 0;
+    }
+
+    .img3 img,
+    .img5 img {
+        width: 70%;
+    }
+
+    .logo1 img {
+        display: inline-block;
+    }
+
+    .logo1 h1 {
+        font-size: 9.7rem;
+    }
+
+    .heading {
+        font-size: 4.5rem;
+    }
+
+    .fhadding h6 {
+        font-size: 3.2rem;
+    }
+
+    .fhadding p,
+    .fhadding ol li {
+        font-size: 2rem;
+    }
+
+    /* Toggle Button */
+    .menu {
+        display: none;
+    }
+}
+/* Media Query (min-width) 992px End */
+
+/* Media Query (min-width) 1200px Strat */
+@media(min-width:1200px) {
+    .container {
+        width: 1160px;
+    }
+
+    .col15 {
+        width: 15%;
+    }
+
+    .col25 {
+        width: 25%;
+    }
+
+    .col35 {
+        width: 35%;
+    }
+
+    .col50 {
+        width: 50%;
+    }
+
+    .col100 {
+        width: 100%;
+    }
+}
+/* Media Query (min-width) 1200px End */

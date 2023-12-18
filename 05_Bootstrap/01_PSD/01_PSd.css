@@ -91,6 +91,9 @@
   width:40%;
   font-size: 1rem;
 }
-.img4 img{
-  Width:30%;
+.img4{
+  width:50%;
+} 
+img{
+  Width:100%;
 }
