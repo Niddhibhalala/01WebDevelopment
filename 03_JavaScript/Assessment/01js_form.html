@@ -35,7 +35,7 @@
         button:hover {
             background-color: #def590;
             color: rgb(232, 168, 8);
-       }
+        }
 
         input {
             width: 90%;
@@ -63,7 +63,7 @@
 <body>
     <div class="container">
         <h2>Form</h2>
-        <form id="form"  onsubmit="return validateForm()">
+        <form id="form" onsubmit="return validateForm()">
             <table>
                 <tr>
                     <td><label for=""></label>username</td>
@@ -83,12 +83,6 @@
                         <input type="text" id="" name="" placeholder="Enter Email Address">
                     </td>
                 </tr>
-                <tr>
-                    <td><label for="GENDER"></label>Gender</td>
-                        <td> <input type="Radio"  id="Male" name="GENDER" value="Male"> Male</td>
-                       <td> <input type="Radio"  id="Female" name="GENDER" value="Female">  Female</td>
-                </tr>
-                
             </table>
             <!-- Username input -->
             <br>
@@ -98,13 +92,9 @@
             <!-- Email input -->
             <input type="email" name="email" id="email" placeholder="Enter email">
             <br>
-            <!-- <input type="text" name="fname" id="fname" placeholder="Enter First Name">
-            <input type="text" name="lname" id="lname" placeholder="Enter Last Name"> -->
-            <!-- <br> -->
             <!-- Phone number input -->
             <input type="tel" name="tel" id="tel" placeholder="Enter phone number (up to 10 digits)" maxlength="10"
-                oninput="this.value = this.value.replace(/[^0-9]/g, '');">
-
+                oninput="this.value = this.value.replace(/[^0-9]/g,'');">
             <br>
             <!-- Submit button -->
             <button type="submit">Login</button>
@@ -126,7 +116,7 @@
 
             // Check if username is empty
             if (username.trim() === "") {
-               alert( errorMessage.textContent = "Username is required.");
+                errorMessage.textContent = "Username is required.";
                 return false;
             }
 
@@ -143,8 +133,8 @@
             }
 
             // check if Gender is empty
-            if (Gender.trim()===""){
-                errrorMessage.textcontent="Gender is required";
+            if (Gender.trim() === "") {
+                errrorMessage.textcontent = "Gender is required";
             }
 
             // Check username length
@@ -160,38 +150,31 @@
             }
 
             // Check if tel is a valid 10-digit number
-            if (tel.length !== 10 || !/^\d{10}$/.test(tel)) {
+            if (tel.length !== 10) {
                 errorMessage.textContent = "Phone number should be a valid 10-digit number.";
                 return false;
             }
 
-            // check if click any one from Gender
-            if (Gender.length = 1 ) {
-                errrorMessage.textContent="Gender is selected among two from one"
-            }
-
             // Additional email validation
             var email = document.getElementById("email").value;
-            functionmyFunction(){
-            if (!isValidEmail(email)) 
+            if (!isValidEmail(email))
                 alert(errorMessage.textContent = "Invalid email format.");
-                // return false;
-            }
+            // return false;
+        }
 
-            function myFunction() {
+        function myFunction() {
             alert("i am an alert box!");
         }
 
-            // If all validations pass, allow form submission
-            return alert("congratulation");
-        }
+        // If all validations pass, allow form submission
+        return alert("congratulation");
+
 
         // Function to validate email format using a regular expression
         function isValidEmail(email) {
             var emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
             return emailRegex.test(email);
         }
-        // var tel=/^\d{10}$/;
 
     </script>
 </body>

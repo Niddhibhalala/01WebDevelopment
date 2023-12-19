@@ -1,99 +1,87 @@
-*{
-  border:1px solid red
+* {
+  border: 1px solid red
 }
 
-.row{
+.row {
   display: flex;
   flex-wrap: wrap;
 }
-.Get{
+
+.carousel h5 {
+  margin: 20px;
+  width: 60%;
+}
+
+.carousel p {
+  color: #fff;
+  margin: 20px;
+  font-size: 1rem;
+  width: 80%;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.btn:before {
   background-color: #0354cc;
   color: #fff;
-  border:none;
-  outline:none;
-  padding:15px 30px;
-}
-.Get:hover{
-  background-color: #21abf9;
+  padding: 10px 20px;
 }
 
-.carousel{
-  background-color: black;
-  opacity:100%;
-  position:relative;
-  overflow-x: hidden;
+.sec2 {
+  margin: 20px;
 }
-.carousel h5{
-  color:#fff;
-  margin:20px;
-  font-size: 3rem;
-  width:60%;
-  /* text-align: center; */
-}
-.carousel p{
-  color:#fff;
-  margin:20px;
-  font-size: 1rem;
-  width:80%;
-  align-items: center;
-  margin:0 auto;
-}
-.btn:before{
-  background-color: #0354cc;
-  color:#fff;
-  padding:10px 20px;
-}
-.sec2{
-  margin:20px;
-}
-.line{
+
+.line {
   border-left: 1.5px solid grey;
 }
-.line h3{
-  width:50%;
+
+.line h3 {
+  width: 50%;
   font-size: 2rem;
 }
-.line p{
-  width:50%;
+
+.line p {
+  width: 50%;
   font-size: 1rem;
 }
-.box{
-  Width:24%;
-  border:1px solid grey;
+
+.box {
+  Width: 24%;
+  border: 1px solid grey;
   border-radius: 5px;
-  padding:10px;
-  margin-right:10px;
+  padding: 10px;
+  margin-right: 10px;
 }
-.box h5{
-  font-size:2rem;
+
+.box button {
+  border: none;
+  background-color: #fff;
+  color: #0354cc;
+  border-bottom: 1.5px solid #0354cc;
+  font-size: 1rem;
   padding: 10px;
 }
-.box p{
-  font-size:1rem;
-  padding:10px;
 
-} 
-.box button{
-  border:none;
-  background-color: #fff;
-  color:#0354cc;
-  border-bottom: 1.5px solid #0354cc;
-  font-size:1rem;
-  padding:10px;
+.i {
+  padding: 10px;
 }
-.i{
-  padding:10px;
+
+.i:hover {
+  top: 30px;
 }
-.i:hover{
-  top:30px;
+
+.img4 {
+  width: 50%;
 }
-.Mollitia{
-  width:40%;
-  font-size: 1rem;
+
+img {
+  Width: 100%;
 }
-.img4{
-  width:50%;
-} 
-img{
-  Width:100%;
+
+/* sec 5 start */
+.sec5 {
+  background-image: url(./Images/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
